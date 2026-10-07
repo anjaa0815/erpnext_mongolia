@@ -57,7 +57,7 @@ bench --site <site> install-app mongolia_payroll
 - **ND-8**: даатгуулагч тус бүрийн жагсаалт (овог, нэр, регистр, төрөл, мэргэжлийн код, цалин, шимтгэл ногдуулах орлого, сан тус бүрийн шимтгэл).
 
 Тайлангийн **"НДЕГ Excel загвар"** товч нь толгой хэсэгтэй (ажил олгогч, регистр, НД-ын дугаар, тайлант үе) `.xlsx` файл гаргана.
-Баганын дараалал `report/nd_8/nd_8.py`-ийн `get_columns()`-д байгаа тул НДЕГ-ын загвар өөрчлөгдвөл зөвхөн тэр жагсаалтыг засна.
+Баганын дараалал `mongolia_payroll/mongolia_payroll/report/nd_8/nd_8.py`-ийн `get_columns()`-д байгаа тул НДЕГ-ын загвар өөрчлөгдвөл зөвхөн тэр жагсаалтыг засна.
 
 ## Тест
 
@@ -65,4 +65,14 @@ bench --site <site> install-app mongolia_payroll
 cd mongolia_payroll && python -m pytest tests
 ```
 
-Тооцооны дүрэм (`calculator.py`) frappe-ээс хамааралгүй тул bench-гүйгээр шалгагдана.
+Тооцооны дүрэм (`mongolia_payroll/mongolia_payroll/calculator.py`) frappe-ээс хамааралгүй тул bench-гүйгээр шалгагдана.
+
+## `mongolia_compliance` апп руу шилжүүлэх
+
+Бүх код "Mongolia Payroll" модулийн хавтас (`mongolia_payroll/mongolia_payroll/`) дотор, харьцангуй import-оор бичигдсэн.
+Нэгдсэн апп руу шилжүүлэхдээ:
+
+1. Модулийн хавтсыг `mongolia_compliance/mongolia_compliance/mongolia_payroll/` руу хуулж, `modules.txt`-д `Mongolia Payroll` нэмнэ
+   (HRMS-д `Payroll` модуль байгаа тул модулийн нэрийг `Payroll` болгож болохгүй).
+2. JS болон hooks дахь `mongolia_payroll.mongolia_payroll.` угтварыг `mongolia_compliance.mongolia_payroll.` болгоно.
+3. `hooks.py`-ийн `before_request`, `before_job`, `doc_events`, `after_install`/`after_migrate` мөрүүдийг нэгдсэн hooks руу нэмж, `required_apps`-д `hrms` оруулна.

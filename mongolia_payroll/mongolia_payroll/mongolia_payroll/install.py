@@ -1,7 +1,7 @@
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 
-from mongolia_payroll.calculator import default_pit_credit_slabs, default_pit_slabs
+from .calculator import default_pit_credit_slabs, default_pit_slabs
 
 SETTINGS = "Mongolia Payroll Settings"
 RISK_CLASS = "Mongolia NDSH Risk Class"

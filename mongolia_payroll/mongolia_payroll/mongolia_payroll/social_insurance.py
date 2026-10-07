@@ -6,8 +6,8 @@ import frappe
 from frappe import _
 from frappe.utils import cint, flt, get_first_day, get_last_day, getdate
 
-from mongolia_payroll.calculator import ACCIDENT, BENEFIT, HEALTH, PENSION, UNEMPLOYMENT
-from mongolia_payroll.formula import SETTINGS, get_accident_rate, get_rules
+from .calculator import ACCIDENT, BENEFIT, HEALTH, PENSION, UNEMPLOYMENT
+from .formula import SETTINGS, get_accident_rate, get_rules
 
 MONTHS = [str(m) for m in range(1, 13)]
 
@@ -141,8 +141,8 @@ def header_lines(filters) -> list[tuple[str, str]]:
 
 
 REPORTS = {
-	"ND-7": "mongolia_payroll.mongolia_payroll.report.nd_7.nd_7",
-	"ND-8": "mongolia_payroll.mongolia_payroll.report.nd_8.nd_8",
+	"ND-7": f"{__package__}.report.nd_7.nd_7",
+	"ND-8": f"{__package__}.report.nd_8.nd_8",
 }
 
 
@@ -152,7 +152,7 @@ def download_excel(report: str, filters: str | dict):
 		frappe.throw(_("Unknown report {0}").format(report))
 	frappe.has_permission("Salary Slip", "read", throw=True)
 
-	from mongolia_payroll.excel import build_workbook
+	from .excel import build_workbook
 
 	filters = frappe._dict(json.loads(filters) if isinstance(filters, str) else filters)
 	module = frappe.get_module(REPORTS[report])

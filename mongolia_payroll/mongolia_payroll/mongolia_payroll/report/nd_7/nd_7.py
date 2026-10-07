@@ -5,7 +5,7 @@
 from frappe import _
 from frappe.utils import flt
 
-from mongolia_payroll.social_insurance import get_employee_rows
+from ...social_insurance import get_employee_rows
 
 TITLE = "НД-7 Нийгмийн даатгалын шимтгэл төлөлтийн тайлан"
 

@@ -8,7 +8,7 @@ import pytest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from mongolia_payroll.calculator import (
+from mongolia_payroll.mongolia_payroll.calculator import (
 	ACCIDENT,
 	PayrollRules,
 	average_daily_wage,
@@ -88,7 +88,7 @@ def test_excel_layout():
 
 	from openpyxl import load_workbook
 
-	from mongolia_payroll.excel import build_workbook
+	from mongolia_payroll.mongolia_payroll.excel import build_workbook
 
 	columns = [
 		{"fieldname": "last_name", "label": "Овог", "fieldtype": "Data"},

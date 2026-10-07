@@ -15,7 +15,7 @@ Example formulas (see install.py for the full structure):
 import frappe
 from frappe.utils import add_months, flt, get_first_day, get_last_day, getdate
 
-from mongolia_payroll.calculator import ACCIDENT, PayrollRules, Slab, average_daily_wage, norm_working_days
+from .calculator import ACCIDENT, PayrollRules, Slab, average_daily_wage, norm_working_days
 
 SETTINGS = "Mongolia Payroll Settings"
 RISK_CLASS = "Mongolia NDSH Risk Class"

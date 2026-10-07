@@ -4,7 +4,7 @@
 
 from frappe import _
 
-from mongolia_payroll.social_insurance import get_employee_rows, total_row
+from ...social_insurance import get_employee_rows, total_row
 
 TITLE = "НД-8 Даатгуулагчийн цалин хөлс, шимтгэлийн жагсаалт"
 

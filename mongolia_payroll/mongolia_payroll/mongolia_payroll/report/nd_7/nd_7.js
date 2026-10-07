@@ -31,7 +31,7 @@ frappe.query_reports["ND-7"] = {
 		report.page.add_inner_button(__("НДЕГ Excel загвар"), () => {
 			const filters = report.get_values();
 			if (!filters) return;
-			open_url_post("/api/method/mongolia_payroll.social_insurance.download_excel", {
+			open_url_post("/api/method/mongolia_payroll.mongolia_payroll.social_insurance.download_excel", {
 				report: "ND-7",
 				filters: JSON.stringify(filters),
 			});

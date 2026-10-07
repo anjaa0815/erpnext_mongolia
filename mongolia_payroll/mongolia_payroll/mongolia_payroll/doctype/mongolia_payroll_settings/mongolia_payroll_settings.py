@@ -29,6 +29,6 @@ class MongoliaPayrollSettings(Document):
 def create_salary_structure(company: str):
 	"""Тухайн компанид Монгол стандарт цалингийн бүтцийн ноорог үүсгэнэ."""
 	frappe.only_for(("HR Manager", "System Manager"))
-	from mongolia_payroll.install import make_salary_structure
+	from ...install import make_salary_structure
 
 	return make_salary_structure(company)
