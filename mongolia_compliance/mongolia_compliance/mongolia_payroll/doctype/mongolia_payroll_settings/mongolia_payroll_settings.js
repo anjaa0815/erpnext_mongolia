@@ -16,7 +16,7 @@ frappe.ui.form.on("Mongolia Payroll Settings", {
 				(values) => {
 					frappe
 						.call({
-							method: "mongolia_payroll.mongolia_payroll.doctype.mongolia_payroll_settings.mongolia_payroll_settings.create_salary_structure",
+							method: "mongolia_compliance.mongolia_payroll.doctype.mongolia_payroll_settings.mongolia_payroll_settings.create_salary_structure",
 							args: { company: values.company },
 						})
 						.then((r) => r.message && frappe.set_route("Form", "Salary Structure", r.message));

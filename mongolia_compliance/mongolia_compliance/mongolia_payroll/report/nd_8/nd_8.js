@@ -1,7 +1,7 @@
 // Copyright (c) 2026, Anjaa and contributors
 // For license information, please see license.txt
 
-frappe.query_reports["ND-7"] = {
+frappe.query_reports["ND-8"] = {
 	filters: [
 		{
 			fieldname: "company",
@@ -31,10 +31,13 @@ frappe.query_reports["ND-7"] = {
 		report.page.add_inner_button(__("НДЕГ Excel загвар"), () => {
 			const filters = report.get_values();
 			if (!filters) return;
-			open_url_post("/api/method/mongolia_payroll.mongolia_payroll.social_insurance.download_excel", {
-				report: "ND-7",
-				filters: JSON.stringify(filters),
-			});
+			open_url_post(
+				"/api/method/mongolia_compliance.mongolia_payroll.social_insurance.download_excel",
+				{
+					report: "ND-8",
+					filters: JSON.stringify(filters),
+				}
+			);
 		});
 	},
 };

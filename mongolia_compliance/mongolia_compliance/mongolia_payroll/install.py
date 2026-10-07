@@ -75,15 +75,8 @@ COMPONENTS = [
 ]
 
 
-def after_install():
-	setup()
-
-
-def after_migrate():
-	setup()
-
-
 def setup():
+	"""Called from mongolia_compliance.install.after_migrate (idempotent)."""
 	make_custom_fields()
 	make_risk_classes()
 	make_settings()
