@@ -125,7 +125,7 @@ msgstr "Дууссан %"
 #. Label of the cost_allocation_per (Percent) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "% Cost allocation for Finished Good"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнд хуваарилах зардлын %"
 
 #. Label of the per_delivered (Percent) field in DocType 'Pick List'
 #. Label of the per_delivered (Percent) field in DocType 'Subcontracting Inward
@@ -177,7 +177,7 @@ msgstr "Процессын алдагдлын %"
 #. Label of the process_loss_percentage (Percent) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "% Process loss"
-msgstr ""
+msgstr "Үйлдвэрлэлийн хорогдлын %"
 
 #. Label of the per_produced (Percent) field in DocType 'Subcontracting Inward
 #. Order'
@@ -235,7 +235,7 @@ msgstr "Буцаагдсан %"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #, python-format
 msgid "% of Component Cost"
-msgstr ""
+msgstr "Бүрэлдэхүүний өртгийн %"
 
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
@@ -345,7 +345,7 @@ msgstr "'{0}' аль хэдийн нэмэгдсэн байна."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:181
 msgid "'{0}' is a reserved name and cannot be used as a line reference"
-msgstr ""
+msgstr "'{0}' нь нөөцлөгдсөн нэр тул мөрийн лавлагаа болгон ашиглах боломжгүй"
 
 #: erpnext/setup/doctype/company/company.py:423
 #: erpnext/setup/doctype/company/company.py:434
@@ -1100,11 +1100,11 @@ msgstr "Таны ажиллах арга барилыг тохируулахын
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1074
 msgid "A finished good conversion entry must consume the production item {0} of the Work Order {1}."
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүний хөрвүүлэлтийн бичилт нь Ажлын захиалга {1}-ийн үйлдвэрлэлийн бараа {0}-г зарцуулсан байх ёстой."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:334
 msgid "A finished good conversion entry must have the purpose 'Repack'."
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүний хөрвүүлэлтийн бичилтийн зорилго нь 'Дахин савлах' байх ёстой."
 
 #: erpnext/public/js/setup_wizard.js:25
 msgid "A little about you"
@@ -1141,11 +1141,11 @@ msgstr "Энэ барааны худалдан авалтын баримт үү�
 
 #: erpnext/selling/doctype/quotation/quotation.py:220
 msgid "A revision must be for the same {0} as Quotation {1}."
-msgstr ""
+msgstr "Шинэчилсэн хувилбар нь Үнийн санал {1}-тэй ижил {0}-д хамаарах ёстой."
 
 #: erpnext/selling/doctype/quotation/quotation.py:215
 msgid "A revision must have the same company as Quotation {0}."
-msgstr ""
+msgstr "Шинэчилсэн хувилбар нь Үнийн санал {0}-тэй ижил компанид хамаарах ёстой."
 
 #: erpnext/stock/doctype/material_request/material_request.js:496
 msgid "A separate Purchase Order is created for each Supplier."
@@ -1154,7 +1154,7 @@ msgstr "Нийлүүлэгч бүрийн хувьд тусдаа худалда
 #. Description of the 'Do not explode' (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "A sub-assembly is a component with its own BOM. By default it's broken down into its own raw materials; enable this to keep it as a single finished part."
-msgstr ""
+msgstr "Дэд угсралт гэдэг нь өөрийн БОМ-той бүрэлдэхүүн юм. Анхдагчаар түүнийг түүхий эдүүдэд нь задалдаг; нэг бүтэн хэсэг хэвээр үлдээхийг хүсвэл үүнийг идэвхжүүлнэ үү."
 
 #: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.py:99
 msgid "A template with tax category {0} already exists. Only one template is allowed with each tax category"
@@ -1226,7 +1226,7 @@ msgstr "API-ийн дэлгэрэнгүй мэдээлэл"
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:294
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:49
 msgid "API Method Path"
-msgstr ""
+msgstr "API аргын зам"
 
 #. Label of a Sidebar Item
 #. Label of a Workspace Sidebar Item
@@ -1473,7 +1473,7 @@ msgstr "Дансны мэдээлэл"
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:293
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:48
 msgid "Account Filter"
-msgstr ""
+msgstr "Дансны шүүлтүүр"
 
 #. Label of the account_head (Link) field in DocType 'Advance Taxes and
 #. Charges'
@@ -1691,7 +1691,7 @@ msgstr "{0} бүртгэлийг {2}-н хувьд {1} гэж тохируулс
 
 #: erpnext/stock/doctype/warehouse/warehouse.py:83
 msgid "Account {0} does not belong to Company {1}"
-msgstr ""
+msgstr "Данс {0} нь Компани {1}-д хамаарахгүй"
 
 #: erpnext/accounts/doctype/budget/budget.py:162
 msgid "Account {0} does not belong to company {1}"
@@ -2484,7 +2484,7 @@ msgstr "Зүйлийн цуврал / багцын дугаарыг идэвхж
 #. Label of a number card in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
 msgid "Active Customers"
-msgstr ""
+msgstr "Идэвхтэй харилцагчид"
 
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:72
 msgid "Active Leads"
@@ -2498,7 +2498,7 @@ msgstr "Идэвхтэй төлөв"
 #. Label of a number card in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
 msgid "Active Suppliers"
-msgstr ""
+msgstr "Идэвхтэй нийлүүлэгчид"
 
 #. Label of the activities_tab (Tab Break) field in DocType 'Lead'
 #. Label of the activities_tab (Tab Break) field in DocType 'Opportunity'
@@ -2626,11 +2626,11 @@ msgstr "Бодит зардал"
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:272
 msgid "Actual Finished Goods"
-msgstr ""
+msgstr "Бодит бэлэн бүтээгдэхүүн"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:378
 msgid "Actual Finished Item"
-msgstr ""
+msgstr "Бодит бэлэн бараа"
 
 #. Label of the actual_operating_cost (Currency) field in DocType 'Work Order'
 #. Label of the actual_operating_cost (Currency) field in DocType 'Work Order
@@ -2851,7 +2851,7 @@ msgstr "Үнийн санал нэмэх"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:130
 msgid "Add Raw Material"
-msgstr ""
+msgstr "Түүхий эд нэмэх"
 
 #. Label of the add_raw_materials (Button) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom/bom.js:1279
@@ -4239,7 +4239,7 @@ msgstr "Хүүхдийн компанийн эсрэг данс үүсгэхий
 #. 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "Allow Alternative Finished Goods"
-msgstr ""
+msgstr "Орлуулах бэлэн бүтээгдэхүүнийг зөвшөөрөх"
 
 #. Label of the allow_alternative_item (Check) field in DocType 'BOM Item'
 #. Label of the allow_alternative_item (Check) field in DocType 'Job Card Item'
@@ -4476,7 +4476,7 @@ msgstr "Тэг үнэлгээний түвшинг зөвшөөрөх"
 #. Label of the allow_alternative_item (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Allow alternative raw material"
-msgstr ""
+msgstr "Орлуулах түүхий эдийг зөвшөөрөх"
 
 #. Label of the allow_delivery_of_overproduced_qty (Check) field in DocType
 #. 'Selling Settings'
@@ -4600,7 +4600,7 @@ msgstr "Нөөц байхгүй үед энэ барааг Хувилбарын 
 #. Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Allow this component to be swapped for a defined alternative during production. Copied from the item's setting, works only when the BOM's \"Allow alternative raw materials\" is on."
-msgstr ""
+msgstr "Үйлдвэрлэлийн явцад энэ бүрэлдэхүүнийг тодорхойлсон орлуулагчаар солихыг зөвшөөрнө. Барааны тохиргооноос хуулагдах ба БОМ-ын \"Орлуулах түүхий эдийг зөвшөөрөх\" идэвхтэй үед л ажиллана."
 
 #. Description of the 'Allow Purchase' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -5260,7 +5260,7 @@ msgstr "Жилийн орлого"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Purchase"
-msgstr ""
+msgstr "Жилийн худалдан авалт"
 
 #. Label of the annual_revenue (Currency) field in DocType 'Lead'
 #. Label of the annual_revenue (Currency) field in DocType 'Opportunity'
@@ -5276,7 +5276,7 @@ msgstr "Жилийн орлого"
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Sales"
-msgstr ""
+msgstr "Жилийн борлуулалт"
 
 #: erpnext/accounts/doctype/budget/budget.py:145
 msgid "Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' with overlapping fiscal years."
@@ -7066,7 +7066,7 @@ msgstr "Ашиглах боломжтой огноог оруулах шаард
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:394
 msgid "Available produced qty of the item {0} is {1}."
-msgstr ""
+msgstr "{0} барааны үйлдвэрлэгдсэн боломжит тоо хэмжээ {1} байна."
 
 #: erpnext/stock/dashboard/item_dashboard.js:251
 msgid "Available {0}"
@@ -7528,7 +7528,7 @@ msgstr "WIP агуулахаас гаргаж авсан буцаан угаах
 #. Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Backflush Materials from WIP Warehouse"
-msgstr ""
+msgstr "Дуусаагүй үйлдвэрлэлийн агуулахаас материалыг автоматаар зарлагадах"
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:16
 msgid "Backflush Raw Materials"
@@ -7549,7 +7549,7 @@ msgstr "Дуусаагүй ажлын агуулахаас түүхий эдий
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Backflush materials from WIP Warehouse"
-msgstr ""
+msgstr "Дуусаагүй үйлдвэрлэлийн агуулахаас материалыг автоматаар зарлагадах"
 
 #. Label of the backflush_raw_materials_of_subcontract_based_on (Select) field
 #. in DocType 'Buying Settings'
@@ -7654,7 +7654,7 @@ msgstr "Балансын төрөл"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:208
 msgid "Balance Type is required for Account Data"
-msgstr ""
+msgstr "Дансны өгөгдөлд үлдэгдлийн төрөл заавал шаардлагатай"
 
 #: erpnext/stock/report/available_serial_no/available_serial_no.py:174
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:88
@@ -8021,7 +8021,7 @@ msgstr "Банкны гүйлгээ {0} Тохирсон"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:604
 msgid "Bank Transaction {0} added as {1}"
-msgstr ""
+msgstr "Банкны гүйлгээ {0}-г {1} болгон нэмлээ"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:161
 msgid "Bank Transaction {0} is already fully reconciled"
@@ -8086,7 +8086,7 @@ msgstr "Банкны үйл ажиллагаа"
 #. Label of a Sidebar Item
 #: erpnext/accounts/sidebar/accounts/accounts.json
 msgid "Banking Setup"
-msgstr ""
+msgstr "Банкны тохиргоо"
 
 #. Label of the barcode_type (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -8147,7 +8147,7 @@ msgstr "Үндсэн зардал (Компанийн валют)"
 #. Label of the base_cost_per_unit (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Base Cost per Unit"
-msgstr ""
+msgstr "Нэгжийн суурь өртөг"
 
 #. Label of the base_rate (Currency) field in DocType 'BOM Creator Item'
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
@@ -8187,7 +8187,7 @@ msgstr "Үндсэн нийт өртгийн дүн"
 #. Label of the base_hour_rate (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Base hour rate(Company Currency)"
-msgstr ""
+msgstr "Цагийн үнэлгээ (Компанийн валютаар)"
 
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:46
 msgid "Based On Data ( in years )"
@@ -8454,13 +8454,13 @@ msgstr "Багцын хэмжээ"
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:104
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "Batch Split"
-msgstr ""
+msgstr "Багц хуваах"
 
 #. Name of a report
 #: erpnext/stock/doctype/batch/batch.js:59
 #: erpnext/stock/report/batch_split_tree/batch_split_tree.json
 msgid "Batch Split Tree"
-msgstr ""
+msgstr "Багц хуваалтын мод"
 
 #. Label of the stock_uom (Link) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
@@ -8491,12 +8491,12 @@ msgstr "Багцын дугаарыг хугацаа дуусах огноонд
 #. Label of the batch_size (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Batch size"
-msgstr ""
+msgstr "Багцын хэмжээ"
 
 #. Label of the batch_split (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Batch split"
-msgstr ""
+msgstr "Багц хуваах"
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:417
 msgid "Batch {0} and Warehouse"
@@ -8931,7 +8931,7 @@ msgstr "Хэвийн захиалгын хөнгөлөлт (%)"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:138
 msgid "Blanket Order Expired"
-msgstr ""
+msgstr "Хүрээ гэрээт захиалгын хугацаа дууссан"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/blanket_order_item/blanket_order_item.json
@@ -8951,11 +8951,11 @@ msgstr "Хоосон захиалгын хэмжээ"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:135
 msgid "Blanket Order {0} expired on {1}"
-msgstr ""
+msgstr "Хүрээ гэрээт захиалга {0}-ийн хугацаа {1}-нд дууссан"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:90
 msgid "Blanket Order {0} is closed"
-msgstr ""
+msgstr "Хүрээ гэрээт захиалга {0} хаагдсан байна"
 
 #. Label of the blanket_order_section (Section Break) field in DocType 'Buying
 #. Settings'
@@ -8971,7 +8971,7 @@ msgstr "Хөнжил захиалга"
 #. Label of the on_hold (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Block Customer"
-msgstr ""
+msgstr "Харилцагчийг хаах"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:112
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:276
@@ -8993,7 +8993,7 @@ msgstr "Энэ харилцагчийн дансанд шинэ гүйлгээ �
 #. Description of the 'Block Customer' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Blocks saving or submitting Sales Orders, Delivery Notes, Sales Invoices and POS Invoices for this customer."
-msgstr ""
+msgstr "Энэ харилцагчийн Борлуулалтын захиалга, Хүргэлтийн баримт, Борлуулалтын нэхэмжлэх, ПОС нэхэмжлэхийг хадгалах болон батлахыг хориглоно."
 
 #. Description of the 'Disabled' (Check) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
@@ -9325,7 +9325,7 @@ msgstr "Төсвийн үндсэн төрөл нь орлого эсвэл за
 #. Label of a Sidebar Item
 #: erpnext/accounts/sidebar/accounts/accounts.json
 msgid "Budgeting"
-msgstr ""
+msgstr "Төсөвлөлт"
 
 #: erpnext/accounts/doctype/fiscal_year/fiscal_year_dashboard.py:9
 msgid "Budgets"
@@ -9339,7 +9339,7 @@ msgstr "Буферийн хугацаа"
 #. Label of the buffer_time (Int) field in DocType 'Item Lead Time Supplier'
 #: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
 msgid "Buffer Time (Days)"
-msgstr ""
+msgstr "Нөөц хугацаа (өдөр)"
 
 #. Option for the 'Data fetch method' (Select) field in DocType 'Accounts
 #. Settings'
@@ -9391,7 +9391,7 @@ msgstr "Бөөнөөр нь нэрлэх ажлууд"
 #. Label of a Sidebar Item
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "Bulk Transaction"
-msgstr ""
+msgstr "Бөөнөөр гүйлгээ хийх"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
@@ -9537,11 +9537,11 @@ msgstr "Хэрэв Appliable For-г {0} гэж сонгосон бол худа�
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1064
 msgid "By Item"
-msgstr ""
+msgstr "Бараагаар"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1065
 msgid "By Workstation"
-msgstr ""
+msgstr "Ажлын станцаар"
 
 #: erpnext/buying/doctype/buying_settings/buying_settings.js:62
 msgid "By default, the Supplier Name is set as per the Supplier Name entered. If you want Suppliers to be named by a <a href='https://docs.erpnext.com/docs/user/manual/en/setting-up/settings/naming-series' target='_blank'>Naming Series</a> choose the 'Naming Series' option."
@@ -9717,7 +9717,7 @@ msgstr "Ирэх хугацааг тооцоолж байна"
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:300
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:51
 msgid "Calculation Formula"
-msgstr ""
+msgstr "Тооцооны томьёо"
 
 #. Label of the section_break_11 (Section Break) field in DocType 'Supplier
 #. Scorecard Period'
@@ -10017,11 +10017,11 @@ msgstr "Бүрэн бус хуваарийг хэрэгжүүлэх боломж
 #: erpnext/public/js/utils/party.js:238 erpnext/public/js/utils/party.js:247
 #: erpnext/public/js/utils/party.js:259
 msgid "Cannot apply taxes"
-msgstr ""
+msgstr "Татвар тооцох боломжгүй"
 
 #: erpnext/public/js/utils/party.js:188 erpnext/public/js/utils/party.js:200
 msgid "Cannot apply taxes from this address"
-msgstr ""
+msgstr "Энэ хаягаас татвар тооцох боломжгүй"
 
 #: erpnext/stock/doctype/item/item.py:390
 msgid "Cannot be a fixed asset item as Stock Ledger is created."
@@ -10147,7 +10147,7 @@ msgstr "{0} нэгтгэсэн нэхэмжлэхийн буцаалтыг үү�
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:592
 msgid "Cannot create {0} from a Bank Transaction"
-msgstr ""
+msgstr "Банкны гүйлгээнээс {0} үүсгэх боломжгүй"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1082
 msgid "Cannot deactivate or cancel BOM as it is linked with other BOMs"
@@ -10229,7 +10229,7 @@ msgstr "{0}зүйлийн анхдагч агуулахыг олж чадсан�
 
 #: erpnext/public/js/utils/party.js:87 erpnext/public/js/utils/party.js:96
 msgid "Cannot load {0} details"
-msgstr ""
+msgstr "{0}-ийн мэдээллийг ачаалах боломжгүй"
 
 #: erpnext/accounts/party.py:1176
 msgid "Cannot merge {0} '{1}' into '{2}' as both have existing accounting entries in different currencies for company '{3}'."
@@ -10279,7 +10279,7 @@ msgstr "Холбоосын токеныг авах боломжгүй байна
 
 #: erpnext/selling/doctype/quotation/quotation.py:445
 msgid "Cannot revise a Quotation with status {0}."
-msgstr ""
+msgstr "{0} төлөвтэй Үнийн саналыг шинэчлэх боломжгүй."
 
 #: erpnext/manufacturing/scheduling/plan_adapter.py:79
 msgid "Cannot schedule a Production Plan with status {0}"
@@ -10708,7 +10708,7 @@ msgstr "Хэмжээг өөрчлөх"
 #: erpnext/manufacturing/doctype/work_order/work_order.js:337
 #: erpnext/manufacturing/doctype/work_order/work_order.js:373
 msgid "Change Finished Item"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнийг солих"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:97
 msgid "Change Release Date"
@@ -11043,7 +11043,7 @@ msgstr "Тойрог лавлагааны алдаа"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:281
 msgid "Circular dependency detected: {0}"
-msgstr ""
+msgstr "Хүрээлсэн хамаарал илэрлээ: {0}"
 
 #. Label of the claimed_landed_cost_amount (Currency) field in DocType
 #. 'Purchase Invoice'
@@ -11127,7 +11127,7 @@ msgstr "Шинэчлэгдсэн цэвэрлэгээний огноо"
 
 #: banking/src/pages/BankReconciliation.tsx:111
 msgid "Clearance Summary"
-msgstr ""
+msgstr "Тооцоо нийцүүлэлтийн хураангуй"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:159
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:174
@@ -11185,7 +11185,7 @@ msgstr "Имэйл / утас нэмэхийн тулд дарна уу"
 
 #: banking/src/components/features/BankReconciliation/BankBalance.tsx:179
 msgid "Click to change the closing balance as per statement"
-msgstr ""
+msgstr "Хуулгын дагуу эцсийн үлдэгдлийг өөрчлөхийн тулд дарна уу"
 
 #: banking/src/components/features/BankReconciliation/RecordPaymentModalContent.tsx:790
 msgid "Click to pay in full."
@@ -11208,7 +11208,7 @@ msgstr "Хэд хоногийн дараа асуудлыг хаах"
 #: erpnext/public/js/utils/item_close.js:11
 #: erpnext/public/js/utils/item_close.js:32
 msgid "Close Items"
-msgstr ""
+msgstr "Мөрүүдийг хаах"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:69
 msgid "Close Loan"
@@ -11252,19 +11252,19 @@ msgstr "Хаагдсан захиалгыг цуцлах боломжгүй. Ц�
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.js:270
 msgid "Closed rows can no longer be ordered. They are skipped when creating an order from this Blanket Order."
-msgstr ""
+msgstr "Хаагдсан мөрүүдийг дахин захиалах боломжгүй. Энэ Хүрээ гэрээт захиалгаас захиалга үүсгэхэд тэдгээрийг алгасна."
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:710
 msgid "Closed rows stop being expected. Their pending quantity is written off and they are skipped when creating a Purchase Receipt or Purchase Invoice."
-msgstr ""
+msgstr "Хаагдсан мөрүүдийг цаашид хүлээхгүй. Үлдсэн тоо хэмжээг хасаж, Худалдан авалтын баримт эсвэл Худалдан авалтын нэхэмжлэх үүсгэхэд алгасна."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1895
 msgid "Closed rows stop being expected. Their pending quantity is written off, stock is no longer reserved for them, and they are skipped when creating a Delivery Note or Sales Invoice."
-msgstr ""
+msgstr "Хаагдсан мөрүүдийг цаашид хүлээхгүй. Үлдсэн тоо хэмжээг хасаж, тэдгээрт нөөцөлсөн бараа материалыг чөлөөлж, Хүргэлтийн баримт эсвэл Борлуулалтын нэхэмжлэх үүсгэхэд алгасна."
 
 #: erpnext/public/js/utils/item_close.js:109
 msgid "Closed rows stop being expected. Their unbilled amount is written off and they are skipped when creating a {0}."
-msgstr ""
+msgstr "Хаагдсан мөрүүдийг цаашид хүлээхгүй. Нэхэмжлээгүй дүнг хасаж, {0} үүсгэхэд алгасна."
 
 #. Label of the expected_closing (Date) field in DocType 'Prospect Opportunity'
 #: erpnext/crm/doctype/prospect_opportunity/prospect_opportunity.json
@@ -11289,11 +11289,11 @@ msgstr "Хаалт (Нээлт + Нийт дүн)"
 
 #: banking/src/components/features/BankReconciliation/BankBalance.tsx:184
 msgid "Closing (statement)"
-msgstr ""
+msgstr "Эцсийн үлдэгдэл (хуулга)"
 
 #: banking/src/components/features/BankReconciliation/BankBalance.tsx:127
 msgid "Closing (system)"
-msgstr ""
+msgstr "Эцсийн үлдэгдэл (систем)"
 
 #. Label of the closing_account_head (Link) field in DocType 'Period Closing
 #. Voucher'
@@ -11563,7 +11563,7 @@ msgstr "Харилцаа холбооны хэрэгслийн төрөл"
 
 #: erpnext/support/doctype/issue/issue.py:161
 msgid "Communication {0} is not on the timeline of Issue {1}"
-msgstr ""
+msgstr "Харилцаа {0} нь Асуудал {1}-ийн цагийн хэлхээс дээр байхгүй"
 
 #: erpnext/setup/install.py:109
 msgid "Compact Item Print"
@@ -12280,11 +12280,11 @@ msgstr "Компани шаардлагатай"
 
 #: erpnext/public/js/utils/party.js:239
 msgid "Company is required to apply taxes. Set Company, then select {0} again."
-msgstr ""
+msgstr "Татвар тооцоход Компани шаардлагатай. Компанийг сонгоод {0}-г дахин сонгоно уу."
 
 #: erpnext/public/js/utils/party.js:97
 msgid "Company is required to load address, taxes, and payment terms. Set Company, then select {0} again."
-msgstr ""
+msgstr "Хаяг, татвар, төлбөрийн нөхцөлийг ачаалахад Компани шаардлагатай. Компанийг сонгоод {0}-г дахин сонгоно уу."
 
 #. Description of the 'Company Field' (Data) field in DocType 'Transaction
 #. Deletion Record To Delete'
@@ -12444,7 +12444,7 @@ msgstr "Дууссан тоо хэмжээ {0}-с их байж болохгүй
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:427
 msgid "Completed Quantity cannot be negative"
-msgstr ""
+msgstr "Гүйцэтгэсэн тоо хэмжээ сөрөг байж болохгүй"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:912
 msgid "Completed Quantity should be greater than 0"
@@ -12468,7 +12468,7 @@ msgstr "Дууссан ажлын захиалга"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1777
 msgid "Completed quantity cannot be negative."
-msgstr ""
+msgstr "Гүйцэтгэсэн тоо хэмжээ сөрөг байж болохгүй."
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:290
 #: erpnext/public/js/shop_floor/shop_floor.js:804
@@ -12477,7 +12477,7 @@ msgstr "Дууссан, хүлээгдэж буй болон боловсруу�
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:212
 msgid "Completed, Process Loss or Pending Qty is required for Job Card {0}, please start and complete the job card before submission"
-msgstr ""
+msgstr "Ажлын карт {0}-д гүйцэтгэсэн, үйлдвэрлэлийн хорогдол эсвэл хүлээгдэж буй тоо хэмжээ шаардлагатай. Батлахаас өмнө ажлын картыг эхлүүлж, дуусгана уу"
 
 #: erpnext/projects/report/project_summary/project_summary.py:73
 msgid "Completion"
@@ -12535,11 +12535,11 @@ msgstr "Бүрэлдэхүүн хэсгүүд"
 #: erpnext/manufacturing/doctype/bom/bom.js:1062
 #: erpnext/manufacturing/doctype/bom/bom.js:1070
 msgid "Components total 100%."
-msgstr ""
+msgstr "Бүрэлдэхүүний нийлбэр 100%."
 
 #: erpnext/manufacturing/doctype/bom/bom.js:1072
 msgid "Components total {0}%. Mark a Balance Item or adjust the percentages to reach 100%."
-msgstr ""
+msgstr "Бүрэлдэхүүний нийлбэр {0}%. 100%-д хүргэхийн тулд үлдэгдэл бараа тэмдэглэх эсвэл хувийг тохируулна уу."
 
 #. Option for the 'Asset Type' (Select) field in DocType 'Asset'
 #: erpnext/assets/doctype/asset/asset.json
@@ -12738,25 +12738,25 @@ msgstr "Нэгтгэсэн"
 #: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.json
 #: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.js:108
 msgid "Consolidated Accounts Payable"
-msgstr ""
+msgstr "Нэгтгэсэн дансны өглөг"
 
 #. Name of a report
 #: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:128
 #: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.json
 msgid "Consolidated Accounts Payable Summary"
-msgstr ""
+msgstr "Нэгтгэсэн дансны өглөгийн хураангуй"
 
 #. Name of a report
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.json
 #: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:134
 msgid "Consolidated Accounts Receivable"
-msgstr ""
+msgstr "Нэгтгэсэн дансны авлага"
 
 #. Name of a report
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:159
 #: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.json
 msgid "Consolidated Accounts Receivable Summary"
-msgstr ""
+msgstr "Нэгтгэсэн дансны авлагын хураангуй"
 
 #. Label of the consolidated_credit_note (Link) field in DocType 'POS Invoice
 #. Merge Log'
@@ -13235,7 +13235,7 @@ msgstr "{0} барааны хөрвүүлэх коэффициентийг 1.0 �
 #. Label of the conversion_rate (Float) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Conversion rate"
-msgstr ""
+msgstr "Хөрвүүлэх ханш"
 
 #: erpnext/controllers/accounts_controller.py:1436
 msgid "Conversion rate cannot be 0"
@@ -13285,11 +13285,11 @@ msgstr "Бүлэг бус руу хөрвүүлэх"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:191
 msgid "Convert to Phantom Item"
-msgstr ""
+msgstr "Хийсвэр бараа болгох"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:180
 msgid "Convert to Sub Assembly"
-msgstr ""
+msgstr "Дэд угсралт болгох"
 
 #. Option for the 'Status' (Select) field in DocType 'Lead'
 #. Option for the 'Status' (Select) field in DocType 'Opportunity'
@@ -13654,7 +13654,7 @@ msgstr "Бэлэн бүтээгдэхүүн болон хоёрдогч бүтэ
 #. Label of the cost_allocation (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Cost allocation for Finished Good"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнд хуваарилах зардал"
 
 #. Title of an incoterm
 #: erpnext/setup/doctype/incoterm/incoterms.csv:8
@@ -13708,13 +13708,13 @@ msgstr "Төрөл бүрийн үйл ажиллагааны өртөг"
 #. Label of the cost_per_unit (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Cost per Unit"
-msgstr ""
+msgstr "Нэгжийн өртөг"
 
 #. Description of the 'Set rate based on sub-assembly BOM' (Check) field in
 #. DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Cost this sub-assembly by rolling up its BOM cost instead of the item's own valuation or price-list rate. Applies only to this component."
-msgstr ""
+msgstr "Энэ дэд угсралтын өртгийг барааны өөрийн үнэлгээ эсвэл үнийн жагсаалтын үнээр бус, БОМ-ын өртгийг нэгтгэн тооцно. Зөвхөн энэ бүрэлдэхүүнд хамаарна."
 
 #. Label of the ctc (Currency) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
@@ -13835,7 +13835,7 @@ msgstr "Толгой мөрийг шинэчилж чадсангүй."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:535
 msgid "Could not validate {0}: {1}"
-msgstr ""
+msgstr "{0}-г шалгаж чадсангүй: {1}"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -13977,7 +13977,7 @@ msgstr "Бэлэн бүтээгдэхүүн бүтээх"
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:67
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:98
 msgid "Create GL Reposting Entries"
-msgstr ""
+msgstr "Ерөнхий дэвтрийг дахин бүртгэх бичилт үүсгэх"
 
 #. Label of the is_grouped_asset (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -14042,7 +14042,7 @@ msgstr "MPS үүсгэх"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1596
 msgid "Create Material Request"
-msgstr ""
+msgstr "Материалын хүсэлт үүсгэх"
 
 #. Label of the create_missing_party (Check) field in DocType 'Opening Invoice
 #. Creation Tool'
@@ -14366,7 +14366,7 @@ msgstr "Нийлүүлэгч үүсгэх"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1593
 msgid "Create your first Material Request to get started."
-msgstr ""
+msgstr "Эхлэхийн тулд анхны Материалын хүсэлтээ үүсгэнэ үү."
 
 #: erpnext/public/js/bulk_transaction_processing.js:14
 msgid "Create {0} {1} ?"
@@ -14380,7 +14380,7 @@ msgstr "Шилжүүлэлтээр үүсгэгдсэн"
 
 #: erpnext/stock/report/batch_split_tree/batch_split_tree.py:155
 msgid "Created Via"
-msgstr ""
+msgstr "Үүсгэсэн суваг"
 
 #. Label of the created_through_portal (Check) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
@@ -16722,7 +16722,7 @@ msgstr "Анхдагч Нийлүүлэгчийн Бүлэг"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1369
 msgid "Default Supplier for {0} not found"
-msgstr ""
+msgstr "{0}-ийн анхдагч нийлүүлэгч олдсонгүй"
 
 #. Label of the default_target_warehouse (Link) field in DocType 'BOM'
 #. Label of the to_warehouse (Link) field in DocType 'Stock Entry'
@@ -16733,7 +16733,7 @@ msgstr "Анхдагч Зорилтот Агуулах"
 
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:52
 msgid "Default Target Warehouse {0} must be a Transit warehouse when Add to Transit is enabled."
-msgstr ""
+msgstr "Замд шилжүүлэх идэвхтэй үед анхдагч хүлээн авах агуулах {0} нь замын агуулах байх ёстой."
 
 #. Label of the territory (Link) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
@@ -16812,7 +16812,7 @@ msgstr "Хувьцаатай холбоотой гүйлгээний анхда�
 #. Label of the source_warehouse (Link) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Default source Warehouse"
-msgstr ""
+msgstr "Анхдагч гаргах агуулах"
 
 #: erpnext/setup/doctype/company/company.js:216
 msgid "Default tax templates for sales, purchase and items are created."
@@ -16995,7 +16995,7 @@ msgstr "Хэмжээг устгах"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:202
 msgid "Delete Item"
-msgstr ""
+msgstr "Бараа устгах"
 
 #. Label of the delete_leads_and_addresses_status (Select) field in DocType
 #. 'Transaction Deletion Record'
@@ -18030,11 +18030,11 @@ msgstr "Идэвхгүй болгосон банкны данс"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:912
 msgid "Disabled Item {0} cannot be used in BOMs."
-msgstr ""
+msgstr "Идэвхгүй бараа {0}-г БОМ-д ашиглах боломжгүй."
 
 #: erpnext/controllers/accounts_controller.py:385
 msgid "Disabled Price List"
-msgstr ""
+msgstr "Идэвхгүй үнийн жагсаалт"
 
 #: erpnext/stock/doctype/packed_item/packed_item.py:207
 msgid "Disabled Product Bundle"
@@ -18610,7 +18610,7 @@ msgstr "Багцын үнэлгээг бүү ашиглаарай"
 #. Label of the do_not_explode (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Do not explode"
-msgstr ""
+msgstr "Задлахгүй"
 
 #. Label of the do_not_fetch_incoming_rate_from_serial_no (Check) field in
 #. DocType 'Stock Reposting Settings'
@@ -18918,7 +18918,7 @@ msgstr "Эцсийн хугацаа {0}-с өмнө байж болохгүй"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:166
 msgid "Due to period closing, you cannot repost item valuation before {0}"
-msgstr ""
+msgstr "Тайлант үеийг хаасан тул {0}-өөс өмнөх барааны үнэлгээг дахин бүртгэх боломжгүй"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:189
 msgid "Due to stock closing entry {0}, you cannot repost item valuation before {1}"
@@ -19025,7 +19025,7 @@ msgstr "Давхардсан ПОС нэхэмжлэх олдлоо"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:128
 msgid "Duplicate POS Search Fields"
-msgstr ""
+msgstr "ПОС хайлтын давхардсан талбарууд"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:155
 msgid "Duplicate Payment Schedule selected"
@@ -19069,7 +19069,7 @@ msgstr "Даннингийн захидлын текст дээр давхард
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:192
 msgid "Duplicate line reference: '{0}'"
-msgstr ""
+msgstr "Давхардсан мөрийн лавлагаа: '{0}'"
 
 #: erpnext/projects/doctype/project/project.js:186
 msgid "Duplicate project has been created"
@@ -19146,7 +19146,7 @@ msgstr "EAN-8"
 #. Label of a Sidebar Item
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "EDI"
-msgstr ""
+msgstr "EDI"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -19167,7 +19167,7 @@ msgstr "ERPNext"
 #. Title of a Sidebar
 #: erpnext/erpnext_integrations/sidebar/erpnext_integrations/erpnext_integrations.json
 msgid "ERPNext Integrations"
-msgstr ""
+msgstr "ERPNext интеграцууд"
 
 #. Label of a Desktop Icon
 #. Name of a Workspace
@@ -19201,7 +19201,7 @@ msgstr "Гүйлгээ бүр"
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Each operation produces its own semi-finished output. Supply its raw materials either by linking that output's BOM in BOM No, or by adding them manually."
-msgstr ""
+msgstr "Үйлдлүүд тус бүр өөрийн хагас боловсруулсан бүтээгдэхүүнийг гаргана. Түүний түүхий эдийг тухайн бүтээгдэхүүний БОМ-ыг БОМ дугаарт холбох эсвэл гараар нэмэх замаар нийлүүлнэ үү."
 
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:223
 msgid "Earliest"
@@ -19683,7 +19683,7 @@ msgstr "Эмс (Пика)"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1034
 msgid "Enable 'Allow Alternative Finished Goods' in Manufacturing Settings to make a finished good conversion entry."
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүний хөрвүүлэлтийн бичилт хийхийн тулд Үйлдвэрлэлийн тохиргоонд 'Орлуулах бэлэн бүтээгдэхүүнийг зөвшөөрөх'-ийг идэвхжүүлнэ үү."
 
 #: erpnext/public/js/controllers/transaction.js:3062
 msgid "Enable <b>{0}</b> on the Item master to proceed with {1} inspection."
@@ -19798,7 +19798,7 @@ msgstr "Хувиргахгүй дэвтрийг идэвхжүүлэх"
 #. Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "Enable Item Search Index"
-msgstr ""
+msgstr "Барааны хайлтын индексийг идэвхжүүлэх"
 
 #. Label of the enable_item_wise_inventory_account (Check) field in DocType
 #. 'Company'
@@ -19977,13 +19977,13 @@ msgstr "Борлуулалтын үнэ нь худалдан авалт эсв�
 #. Description of the 'Set as Phantom BOM' (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Enable this to define the BOM as a logical grouping of raw materials without producing an item. The Production Item must be non-stock and will be automatically exploded when used as a raw material in another BOM."
-msgstr ""
+msgstr "БОМ-ыг бараа үйлдвэрлэхгүйгээр түүхий эдийн логик бүлэг болгон тодорхойлохын тулд үүнийг идэвхжүүлнэ. Үйлдвэрлэлийн бараа нь бараа материалын бус байх ёстой бөгөөд өөр БОМ-д түүхий эд болгон ашиглахад автоматаар задлагдана."
 
 #. Description of the 'Allow alternative raw material' (Check) field in DocType
 #. 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Enable this to select an alternative material when the required item is unavailable.\n"
-msgstr ""
+msgstr "Шаардлагатай бараа байхгүй үед орлуулах материал сонгохын тулд үүнийг идэвхжүүлнэ.\n"
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.js:34
 msgid "Enable to apply SLA on every {0}"
@@ -20410,15 +20410,15 @@ msgstr "Хамгийн өндөр ач холбогдолтой хэд хэдэ�
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:342
 msgid "Every row has a document"
-msgstr ""
+msgstr "Мөр бүрт баримт байна"
 
 #: erpnext/controllers/item_close.py:146
 msgid "Every row of {0} is closed. Reopen the rows you need instead, using {1}."
-msgstr ""
+msgstr "{0}-ийн бүх мөр хаагдсан байна. Оронд нь {1}-ийг ашиглан хэрэгтэй мөрүүдээ дахин нээнэ үү."
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:331
 msgid "Everything requested or in stock"
-msgstr ""
+msgstr "Хүсэлт гаргасан эсвэл нөөцөд байгаа бүх зүйл"
 
 #. Title of an incoterm
 #: erpnext/setup/doctype/incoterm/incoterms.csv:2
@@ -20738,7 +20738,7 @@ msgstr "Гарах ярилцлага боллоо"
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:163
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:216
 msgid "Expand / Collapse All"
-msgstr ""
+msgstr "Бүгдийг дэлгэх / хураах"
 
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.py:475
 msgid "Expected"
@@ -21145,7 +21145,7 @@ msgstr "Валютын ханшийн дахин үнэлгээ"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:119
 msgid "FY"
-msgstr ""
+msgstr "СЖ"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -21373,7 +21373,7 @@ msgstr "Авч байна..."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:449
 msgid "Field '{0}' is not a valid Account field"
-msgstr ""
+msgstr "'{0}' талбар нь Дансны хүчинтэй талбар биш байна"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:224
 msgid "Field '{0}' is not a valid Company link field for DocType {1}"
@@ -21387,7 +21387,7 @@ msgstr "Талбайн зураглал"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:446
 msgid "Field and operator must be strings"
-msgstr ""
+msgstr "Талбар болон оператор нь тэмдэгт мөр байх ёстой"
 
 #. Label of the bank_transaction_field (Select) field in DocType 'Bank
 #. Transaction Mapping'
@@ -21460,15 +21460,15 @@ msgstr "Нэхэмжлэхийн төлөвөөр шүүх"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:476
 msgid "Filter items..."
-msgstr ""
+msgstr "Бараа шүүх..."
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:441
 msgid "Filter must be [field, operator, value]"
-msgstr ""
+msgstr "Шүүлтүүр нь [талбар, оператор, утга] хэлбэртэй байх ёстой"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:478
 msgid "Filter must be a list or dict"
-msgstr ""
+msgstr "Шүүлтүүр нь жагсаалт эсвэл толь бичиг байх ёстой"
 
 #. Label of the invoice_name (Data) field in DocType 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
@@ -21803,7 +21803,7 @@ msgstr "Дууссан бараа {0} нь Ажлын захиалгатай {1}
 #. Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Finished Items"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнүүд"
 
 #: erpnext/stock/doctype/stock_entry/services/disassemble.py:75
 msgid "Finished good quantity being consumed ({0} in stock UOM) must equal the quantity to disassemble ({1}). Do not change the UOM, conversion factor or quantity of the finished good row."
@@ -21812,7 +21812,7 @@ msgstr "Хэрэглэж буй бэлэн бүтээгдэхүүний хэмж
 #. Label of the fg_based_operating_cost (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Finished goods based operating cost"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнд суурилсан үйл ажиллагааны зардал"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:617
 msgid "First Delivery Date"
@@ -22006,7 +22006,7 @@ msgstr "Тогтмол ханш"
 #. Label of the fixed_time (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Fixed time"
-msgstr ""
+msgstr "Тогтмол хугацаа"
 
 #. Name of a role
 #: erpnext/setup/doctype/driver/driver.json
@@ -22151,7 +22151,7 @@ msgstr "Үйлдвэрлэлийн зориулалттай"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1575
 msgid "For Qty"
-msgstr ""
+msgstr "Тоо хэмжээнд"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:413
 msgid "For Quantity (Manufactured Qty) is mandatory"
@@ -22396,15 +22396,15 @@ msgstr "Томъёонд суурилсан шалгуурууд"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:345
 msgid "Formula evaluation error: {0}"
-msgstr ""
+msgstr "Томьёо тооцоолох алдаа: {0}"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:323
 msgid "Formula has unbalanced parentheses"
-msgstr ""
+msgstr "Томьёоны хаалт тэнцвэргүй байна"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:370
 msgid "Formula must return a numeric value, got {0}"
-msgstr ""
+msgstr "Томьёо тоон утга буцаах ёстой, {0} ирлээ"
 
 #. Label of the calculation_formula (Code) field in DocType 'Financial Report
 #. Row'
@@ -22414,7 +22414,7 @@ msgstr "Томъёо эсвэл Дансны шүүлтүүр"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:335
 msgid "Formula references itself ('{0}')"
-msgstr ""
+msgstr "Томьёо өөрөө өөрийгөө иш татаж байна ('{0}')"
 
 #: erpnext/templates/pages/help.html:35
 msgid "Forum Activity"
@@ -22708,7 +22708,7 @@ msgstr "Лавлагааны огнооноос"
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:120
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:1145
 msgid "From Reference Date cannot be greater than To Reference Date"
-msgstr ""
+msgstr "Лавлагааны эхлэх огноо нь лавлагааны дуусах огнооноос хойш байж болохгүй"
 
 #. Label of the from_shareholder (Link) field in DocType 'Share Transfer'
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
@@ -22829,7 +22829,7 @@ msgstr "Хөлдөөсөн"
 
 #: erpnext/accounts/doctype/account/account_tree.js:83
 msgid "Frozen - entries restricted"
-msgstr ""
+msgstr "Хөлдөөсөн - бичилт хязгаарлагдсан"
 
 #. Description of the 'Is Frozen' (Check) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -23011,11 +23011,11 @@ msgstr "GL бүртгэлийн боловсруулалтын төлөв"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:68
 msgid "GL Reposting Entries"
-msgstr ""
+msgstr "Ерөнхий дэвтрийг дахин бүртгэх бичилтүүд"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:376
 msgid "GL reposting entries created: {0}"
-msgstr ""
+msgstr "Ерөнхий дэвтрийг дахин бүртгэх бичилт үүсгэлээ: {0}"
 
 #. Label of the gl_reposting_index (Int) field in DocType 'Repost Item
 #. Valuation'
@@ -23025,7 +23025,7 @@ msgstr "GL дахин нийтлэх индекс"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:124
 msgid "GL reposting is not allowed against the voucher type {0}."
-msgstr ""
+msgstr "{0} баримтын төрөлд ерөнхий дэвтрийг дахин бүртгэхийг зөвшөөрөхгүй."
 
 #. Option for the 'Barcode Type' (Select) field in DocType 'Item Barcode'
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -23818,7 +23818,7 @@ msgstr "Нийт болон цэвэр ашгийн тайлан"
 #: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:82
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:103
 msgid "Group By Company"
-msgstr ""
+msgstr "Компаниар бүлэглэх"
 
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:151
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:98
@@ -23860,7 +23860,7 @@ msgstr "Хэмжээгээр нь бүлэглэх"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.js:104
 msgid "Group by Item"
-msgstr ""
+msgstr "Бараагаар бүлэглэх"
 
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.js:61
 msgid "Group by Material Request"
@@ -23912,7 +23912,7 @@ msgstr "Ижил зүйлсийг бүлэглэх"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:49
 msgid "Group the report by Sales Order or by Item, not both."
-msgstr ""
+msgstr "Тайланг Борлуулалтын захиалгаар эсвэл Бараагаар бүлэглэнэ үү, хоёуланг нь биш."
 
 #: erpnext/stock/doctype/item/item_dashboard.py:18
 msgid "Groups"
@@ -24118,7 +24118,7 @@ msgstr "Хувилбаруудтай"
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Has variants"
-msgstr ""
+msgstr "Хувилбартай"
 
 #. Label of the use_naming_series (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -24399,7 +24399,7 @@ msgstr "Цагийн ханш"
 #. Label of the hour_rate (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Hour rate"
-msgstr ""
+msgstr "Цагийн үнэлгээ"
 
 #. Label of the hours (Float) field in DocType 'Workstation Working Hour'
 #: erpnext/manufacturing/doctype/workstation_working_hour/workstation_working_hour.json
@@ -24615,7 +24615,7 @@ msgstr "Хэрэв тэмдэглэгдсэн бол бүх дүн (жишээ �
 #. field in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "If checked, the rejected quantity is billed anywhere in the purchase cycle."
-msgstr ""
+msgstr "Сонгосон бол буцаасан тоо хэмжээг худалдан авалтын мөчлөгийн аль ч үе шатанд нэхэмжилнэ."
 
 #. Description of the 'Considered In Paid Amount' (Check) field in DocType
 #. 'Purchase Taxes and Charges'
@@ -24801,7 +24801,7 @@ msgstr "Хэрэв идэвхжүүлсэн бол дотоод шилжүүлг
 #. DocType 'Manufacturing Settings'
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
 msgid "If enabled, the produced item of a Work Order can be converted into one of its alternative items (defined via Item Alternative) using the 'Change Finished Item' action. The conversion creates a Repack entry linked to the Work Order."
-msgstr ""
+msgstr "Идэвхжүүлсэн бол Ажлын захиалгын үйлдвэрлэсэн барааг 'Бэлэн бүтээгдэхүүнийг солих' үйлдлээр түүний орлуулах бараануудын (Барааны орлуулагчаар тодорхойлсон) аль нэг рүү хөрвүүлж болно. Хөрвүүлэлт нь Ажлын захиалгатай холбогдсон Дахин савлах бичилт үүсгэнэ."
 
 #. Description of the 'Validate Material Transfer warehouses' (Check) field in
 #. DocType 'Stock Settings'
@@ -24837,7 +24837,7 @@ msgstr "Хэрэв идэвхжүүлсэн бол систем нь хэрэг�
 #. in DocType 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "If enabled, the system will generate an accounting entry for material rejected anywhere in the purchase cycle."
-msgstr ""
+msgstr "Идэвхжүүлсэн бол худалдан авалтын мөчлөгийн аль ч үе шатанд буцаасан материалд систем нягтлан бодох бүртгэлийн бичилт үүсгэнэ."
 
 #. Description of the 'Enable Item-wise Inventory Account' (Check) field in
 #. DocType 'Company'
@@ -25248,7 +25248,7 @@ msgstr "Хэрэгжүүлэлтийн түнш"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:119
 msgid "Import 1 transaction"
-msgstr ""
+msgstr "1 гүйлгээ импортлох"
 
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:258
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:295
@@ -25332,7 +25332,7 @@ msgstr "Импортолсон {0} DocTypes"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:138
 msgid "Importing 1 transaction"
-msgstr ""
+msgstr "1 гүйлгээ импортлож байна"
 
 #: erpnext/edi/doctype/code_list/code_list_import.py:39
 msgid "Importing Code Lists from remote URLs is not allowed."
@@ -25344,7 +25344,7 @@ msgstr "Нийтлэг кодуудыг импортлох"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:139
 msgid "Importing {0} of {1} transactions"
-msgstr ""
+msgstr "{1} гүйлгээнээс {0}-г импортлож байна"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:118
 msgid "Importing..."
@@ -25511,7 +25511,7 @@ msgstr "Борлуулалтын захиалгыг хадгалсны дара�
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "In a multi-operation BOM, marks the operation that produces this BOM's final item, the others produce intermediate semi-finished goods. Its FG item is set to the BOM's item automatically and must match it."
-msgstr ""
+msgstr "Олон үйлдэлтэй БОМ-д энэ БОМ-ын эцсийн барааг үйлдвэрлэх үйлдлийг тэмдэглэнэ, бусад нь завсрын хагас боловсруулсан бүтээгдэхүүн үйлдвэрлэнэ. Түүний бэлэн бүтээгдэхүүн нь БОМ-ын бараагаар автоматаар тохирох ба түүнтэй таарах ёстой."
 
 #. Description of the 'Completed Time' (Data) field in DocType 'Job Card
 #. Operation'
@@ -25529,7 +25529,7 @@ msgstr "Хэдхэн минутын дотор"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:551
 msgid "In progress"
-msgstr ""
+msgstr "Явагдаж байна"
 
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.js:8
 msgid "In row {0} of Appointment Booking Slots: \"To Time\" must be later than \"From Time\"."
@@ -25687,7 +25687,7 @@ msgstr "Үйлдвэрлэлд бүтээгдэхүүнийг оруулах"
 #. Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Include Item in manufacturing"
-msgstr ""
+msgstr "Барааг үйлдвэрлэлд оруулах"
 
 #. Label of the include_non_stock_items (Check) field in DocType 'Production
 #. Plan'
@@ -25728,7 +25728,7 @@ msgstr "Буцаагдсан нэхэмжлэхийг оруулах (Бие д�
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:186
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:144
 msgid "Include Revaluation Journals"
-msgstr ""
+msgstr "Дахин үнэлгээний журналыг оруулах"
 
 #. Label of the include_safety_stock (Check) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
@@ -25863,7 +25863,7 @@ msgstr "Ирж буй дуудлагын тохиргоо"
 #. Label of a chart in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Incoming Leads"
-msgstr ""
+msgstr "Ирж буй боломжит харилцагчид"
 
 #. Label of the incoming_rate (Currency) field in DocType 'Delivery Note Item'
 #. Label of the incoming_rate (Currency) field in DocType 'Packed Item'
@@ -25926,7 +25926,7 @@ msgstr "Буруу огноо"
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:215
 msgid "Incorrect Inventory Dimension"
-msgstr ""
+msgstr "Бараа материалын хэмжээс буруу"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:165
 msgid "Incorrect Invoice"
@@ -25980,7 +25980,7 @@ msgstr "Ерөнхий дэвтрийн бичилтүүдийн тоо буру
 
 #: banking/src/pages/BankReconciliation.tsx:112
 msgid "Incorrectly Cleared"
-msgstr ""
+msgstr "Буруу нийцүүлсэн"
 
 #: banking/src/components/features/BankReconciliation/IncorrectlyClearedEntries.tsx:202
 msgid "Incorrectly cleared entries as per the report."
@@ -26411,11 +26411,11 @@ msgstr "Дотоод хэрэглэгчийн нягтлан бодох бүрт
 
 #: erpnext/selling/doctype/customer/customer.py:283
 msgid "Internal Customer Already Exists"
-msgstr ""
+msgstr "Дотоод харилцагч аль хэдийн бүртгэлтэй"
 
 #: erpnext/selling/doctype/customer/customer.py:277
 msgid "Internal Customer {0} already exists for {1}. Disable it to make this Customer internal."
-msgstr ""
+msgstr "{1}-д Дотоод харилцагч {0} аль хэдийн бүртгэлтэй байна. Энэ харилцагчийг дотоод болгохын тулд түүнийг идэвхгүй болгоно уу."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1201
 msgid "Internal Purchase Order"
@@ -26435,7 +26435,7 @@ msgstr "Дотоод борлуулалтын лавлагаа дутуу бай
 
 #: erpnext/buying/doctype/supplier/supplier.py:196
 msgid "Internal Supplier Already Exists"
-msgstr ""
+msgstr "Дотоод нийлүүлэгч аль хэдийн бүртгэлтэй"
 
 #. Label of the internal_supplier_section (Section Break) field in DocType
 #. 'Supplier'
@@ -26445,7 +26445,7 @@ msgstr "Дотоод нийлүүлэгчийн дэлгэрэнгүй мэдэ�
 
 #: erpnext/buying/doctype/supplier/supplier.py:190
 msgid "Internal Supplier {0} already exists for {1}. Disable it to make this Supplier internal."
-msgstr ""
+msgstr "{1}-д Дотоод нийлүүлэгч {0} аль хэдийн бүртгэлтэй байна. Энэ нийлүүлэгчийг дотоод болгохын тулд түүнийг идэвхгүй болгоно уу."
 
 #. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
 #. Option for the 'Status' (Select) field in DocType 'Purchase Invoice'
@@ -26646,7 +26646,7 @@ msgstr "Зүйлийн анхдагч тохиргоонууд буруу бай
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:424
 msgid "Invalid JSON format: {0}"
-msgstr ""
+msgstr "JSON формат буруу: {0}"
 
 #. Name of a report
 #: erpnext/accounts/report/invalid_ledger_entries/invalid_ledger_entries.json
@@ -26664,11 +26664,11 @@ msgstr "Буруу нээлтийн оруулга"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:111
 msgid "Invalid POS Field"
-msgstr ""
+msgstr "ПОС талбар буруу"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.js:55
 msgid "Invalid POS Fields"
-msgstr ""
+msgstr "ПОС талбарууд буруу"
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:144
 msgid "Invalid POS Invoices"
@@ -26677,7 +26677,7 @@ msgstr "Хүчингүй ПОС-ын нэхэмжлэх"
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:140
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:148
 msgid "Invalid POS Search Field"
-msgstr ""
+msgstr "ПОС хайлтын талбар буруу"
 
 #: erpnext/accounts/doctype/account/account.py:422
 msgid "Invalid Parent Account"
@@ -26693,7 +26693,7 @@ msgstr "Буруу нийтлэх хугацаа"
 
 #: erpnext/controllers/accounts_controller.py:395
 msgid "Invalid Price List"
-msgstr ""
+msgstr "Үнийн жагсаалт буруу"
 
 #: erpnext/accounts/doctype/party_link/party_link.py:30
 msgid "Invalid Primary Role"
@@ -26744,7 +26744,7 @@ msgstr "Борлуулалтын нэхэмжлэх буруу байна"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:163
 msgid "Invalid Sample Size"
-msgstr ""
+msgstr "Дээжийн хэмжээ буруу"
 
 #: erpnext/assets/doctype/asset/asset.py:663
 #: erpnext/assets/doctype/asset/asset.py:691
@@ -26761,7 +26761,7 @@ msgstr "Хүчингүй цуваа болон багц багц"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:69
 msgid "Invalid Shipping Account"
-msgstr ""
+msgstr "Тээврийн данс буруу"
 
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:83
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:105
@@ -26774,7 +26774,7 @@ msgstr "Модны төрөл буруу {0}"
 
 #: erpnext/stock/doctype/item/item.py:1212
 msgid "Invalid Valuation Method"
-msgstr ""
+msgstr "Үнэлгээний арга буруу"
 
 #: erpnext/controllers/item_variant.py:269
 msgid "Invalid Value"
@@ -26787,15 +26787,15 @@ msgstr "Хүчингүй агуулах"
 
 #: erpnext/manufacturing/doctype/work_order/mapper.py:300
 msgid "Invalid Work Order"
-msgstr ""
+msgstr "Ажлын захиалга буруу"
 
 #: erpnext/manufacturing/doctype/work_order/mapper.py:317
 msgid "Invalid Work Order or Item"
-msgstr ""
+msgstr "Ажлын захиалга эсвэл бараа буруу"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.py:152
 msgid "Invalid address"
-msgstr ""
+msgstr "Хаяг буруу"
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:460
 msgid "Invalid amount in accounting entries of {0} {1} for Account {2}: {3}"
@@ -26814,22 +26814,22 @@ msgstr "Дебит/кредитийн томъёо буруу байна: {0}"
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:399
 msgid "Invalid doctype"
-msgstr ""
+msgstr "Баримтын төрөл буруу"
 
 #: erpnext/accounts/doctype/sales_invoice/mapper.py:386
 msgid "Invalid doctype {0}"
-msgstr ""
+msgstr "Баримтын төрөл {0} буруу"
 
 #: erpnext/assets/doctype/asset/asset.py:1220
 #: erpnext/controllers/sales_and_purchase_return.py:1330
 #: erpnext/controllers/sales_and_purchase_return.py:1340
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:559
 msgid "Invalid document type"
-msgstr ""
+msgstr "Баримтын төрөл буруу"
 
 #: erpnext/accounts/doctype/sales_invoice/mapper.py:398
 msgid "Invalid field {0}"
-msgstr ""
+msgstr "Талбар {0} буруу"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1074
 msgid "Invalid file URL"
@@ -26837,7 +26837,7 @@ msgstr "Файлын URL буруу байна"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1100
 msgid "Invalid filter"
-msgstr ""
+msgstr "Шүүлтүүр буруу"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:87
 msgid "Invalid filter formula. Please check the syntax."
@@ -26845,7 +26845,7 @@ msgstr "Шүүлтүүрийн томъёо буруу байна. Синтак�
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:172
 msgid "Invalid line reference format: '{0}'. Must start with a letter and contain only letters, numbers and underscores"
-msgstr ""
+msgstr "Мөрийн лавлагааны формат буруу: '{0}'. Үсгээр эхэлж, зөвхөн үсэг, тоо, доогуур зураас агуулах ёстой"
 
 #: erpnext/selling/doctype/quotation/quotation.py:353
 msgid "Invalid lost reason {0}, please create a new lost reason"
@@ -26856,7 +26856,7 @@ msgstr "Алдагдсан шалтгаан буруу байна {0}, шинэ 
 #: erpnext/support/doctype/issue/issue.py:267
 #: erpnext/utilities/bulk_transaction.py:30
 msgid "Invalid name"
-msgstr ""
+msgstr "Нэр буруу"
 
 #: erpnext/stock/doctype/item/item.py:503
 msgid "Invalid naming series (. missing) for {0}"
@@ -26864,7 +26864,7 @@ msgstr "{0}-н нэрлэлтийн цуваа буруу байна (дутуу
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:454
 msgid "Invalid operator '{0}'"
-msgstr ""
+msgstr "Оператор буруу '{0}'"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:751
 msgid "Invalid parameter. 'dn' should be of type str"
@@ -26880,7 +26880,7 @@ msgstr "Буруу хүрээ. {0} форматыг ашиглана уу"
 
 #: erpnext/controllers/queries.py:1277
 msgid "Invalid reference"
-msgstr ""
+msgstr "Лавлагаа буруу"
 
 #: erpnext/utilities/transaction_base.py:126
 msgid "Invalid reference {0} {1}"
@@ -26900,7 +26900,7 @@ msgstr "Буруу хайлтын асуулга"
 
 #: erpnext/setup/doctype/company/company.py:1179
 msgid "Invalid sort key"
-msgstr ""
+msgstr "Эрэмбэлэх түлхүүр буруу"
 
 #: erpnext/manufacturing/page/shop_floor/shop_floor.py:316
 msgid "Invalid status group: {0}"
@@ -26912,12 +26912,12 @@ msgstr "Туслан гүйцэтгэгчийн захиалгын талбар 
 
 #: erpnext/accounts/services/taxes.py:190
 msgid "Invalid tax master doctype"
-msgstr ""
+msgstr "Татварын мастер баримтын төрөл буруу"
 
 #: erpnext/buying/doctype/supplier/supplier.py:250
 #: erpnext/selling/doctype/customer/customer.py:864
 msgid "Invalid type"
-msgstr ""
+msgstr "Төрөл буруу"
 
 #: erpnext/accounts/report/inactive_sales_items/inactive_sales_items.py:104
 msgid "Invalid value {0} for 'Based On'"
@@ -27232,7 +27232,7 @@ msgstr "Дотогшоо"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Inward Order Summary"
-msgstr ""
+msgstr "Хүлээн авах захиалгын хураангуй"
 
 #. Label of the is_account_payable (Check) field in DocType 'Cheque Print
 #. Template'
@@ -27242,7 +27242,7 @@ msgstr "Төлөх данс уу"
 
 #: erpnext/selling/doctype/quotation/quotation.py:371
 msgid "Is Active cannot be changed on a Lost Quotation."
-msgstr ""
+msgstr "Алдагдсан Үнийн санал дээр Идэвхтэй эсэхийг өөрчлөх боломжгүй."
 
 #. Label of the is_additional_item (Check) field in DocType 'Work Order Item'
 #. Label of the is_additional_item (Check) field in DocType 'Subcontracting
@@ -27404,7 +27404,7 @@ msgstr "Өргөтгөх боломжтой"
 #. Label of the is_fg_conversion (Check) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Is Finished Good Conversion"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүний хөрвүүлэлт эсэх"
 
 #. Label of the is_finished_item (Check) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
@@ -27501,7 +27501,7 @@ msgstr "Дотоод нийлүүлэгч үү?"
 #. Label of the is_latest_revision (Check) field in DocType 'Quotation'
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "Is Latest Revision"
-msgstr ""
+msgstr "Хамгийн сүүлийн хувилбар эсэх"
 
 #. Label of the is_mandatory (Check) field in DocType 'Applicable On Account'
 #: erpnext/accounts/doctype/applicable_on_account/applicable_on_account.json
@@ -27744,7 +27744,7 @@ msgstr "Захиалга юм"
 #. Label of the is_active (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Is active"
-msgstr ""
+msgstr "Идэвхтэй эсэх"
 
 #. Label of the is_created_using_pos (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -27754,17 +27754,17 @@ msgstr "POS ашиглан үүсгэсэн"
 #. Label of the is_final_finished_good (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Is final Finished Good"
-msgstr ""
+msgstr "Эцсийн бэлэн бүтээгдэхүүн эсэх"
 
 #. Label of the is_stock_item (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Is stock Item"
-msgstr ""
+msgstr "Бараа материал эсэх"
 
 #. Label of the is_sub_assembly_item (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Is sub assembly Item"
-msgstr ""
+msgstr "Дэд угсралтын бараа эсэх"
 
 #. Label of the included_in_print_rate (Check) field in DocType 'Purchase Taxes
 #. and Charges'
@@ -27885,7 +27885,7 @@ msgstr "Асуудлууд"
 #. Label of a chart in the Support Workspace
 #: erpnext/support/workspace/support/support.json
 msgid "Issues Opened"
-msgstr ""
+msgstr "Нээгдсэн асуудлууд"
 
 #. Label of the issuing_date (Date) field in DocType 'Driver'
 #. Label of the issuing_date (Date) field in DocType 'Driving License Category'
@@ -28494,7 +28494,7 @@ msgstr "Бараа хүргэх хугацаа"
 #. Name of a DocType
 #: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
 msgid "Item Lead Time Supplier"
-msgstr ""
+msgstr "Барааны нийлүүлэгчийн хүргэлтийн хугацаа"
 
 #. Label of the locations (Table) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
@@ -29139,7 +29139,7 @@ msgstr "Үйлдвэрлэх зүйл"
 #. Label of the item (Link) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Item to manufacture"
-msgstr ""
+msgstr "Үйлдвэрлэх бараа"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:27
 msgid "Item valuation rate is recalculated considering landed cost voucher amount"
@@ -29230,7 +29230,7 @@ msgstr "{0} зүйл цуцлагдсан"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:97
 msgid "Item {0} is closed in Blanket Order {1}"
-msgstr ""
+msgstr "Бараа {0} нь Хүрээ гэрээт захиалга {1}-д хаагдсан байна"
 
 #: erpnext/stock/doctype/item/item.py:1365
 msgid "Item {0} is disabled"
@@ -29371,7 +29371,7 @@ msgstr "Шаардлагатай зүйлс"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Items To Be Delivered"
-msgstr ""
+msgstr "Хүргэх бараанууд"
 
 #. Label of a Sidebar Item
 #: erpnext/buying/sidebar/buying/buying.json
@@ -29401,11 +29401,11 @@ msgstr "Түүхий эдийн хүсэлтийн зүйлс"
 
 #: erpnext/selling/doctype/quotation/quotation.py:534
 msgid "Items must be a list of DocType names."
-msgstr ""
+msgstr "Бараанууд нь баримтын төрлийн нэрсийн жагсаалт байх ёстой."
 
 #: erpnext/buying/utils.py:137 erpnext/buying/utils.py:143
 msgid "Items must be a list of Item codes"
-msgstr ""
+msgstr "Бараанууд нь барааны кодын жагсаалт байх ёстой"
 
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:110
 msgid "Items not found."
@@ -29423,7 +29423,7 @@ msgstr "Дахин нийтлэх зүйлс"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:586
 msgid "Items to Manufacture"
-msgstr ""
+msgstr "Үйлдвэрлэх бараанууд"
 
 #: erpnext/manufacturing/doctype/production_plan/services/material_request.py:277
 msgid "Items to Manufacture are required to pull the Raw Materials associated with it."
@@ -30266,7 +30266,7 @@ msgstr "Нүүр хуудасны талбарт хоосон үлдээнэ ү�
 #. Description of the 'Release Date' (Date) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Leave blank if the Customer is blocked indefinitely"
-msgstr ""
+msgstr "Харилцагчийг хугацаагүй хаасан бол хоосон үлдээнэ үү"
 
 #. Description of the 'Release Date' (Date) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -30626,15 +30626,15 @@ msgstr "Барааны борлуулалт болон худалдан авал
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:462
 msgid "Logical condition must have exactly one operator"
-msgstr ""
+msgstr "Логик нөхцөл яг нэг оператортой байх ёстой"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:470
 msgid "Logical conditions need at least 1 sub-condition"
-msgstr ""
+msgstr "Логик нөхцөл дор хаяж 1 дэд нөхцөлтэй байх ёстой"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:466
 msgid "Logical operators must be 'and' or 'or'"
-msgstr ""
+msgstr "Логик оператор нь 'and' эсвэл 'or' байх ёстой"
 
 #. Label of the logo (Attach) field in DocType 'Sales Partner'
 #. Label of the logo (Attach Image) field in DocType 'Manufacturer'
@@ -31370,7 +31370,7 @@ msgstr "Үйлдвэрлэсэн тоо хэмжээ"
 
 #: erpnext/manufacturing/doctype/work_order/services/status.py:224
 msgid "Manufactured Qty (including Process Loss)"
-msgstr ""
+msgstr "Үйлдвэрлэсэн тоо хэмжээ (үйлдвэрлэлийн хорогдлыг оруулаад)"
 
 #. Label of the manufacturer (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the manufacturer (Link) field in DocType 'Purchase Order Item'
@@ -31786,7 +31786,7 @@ msgstr "Дүрмээр тохируулсан"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:231
 msgid "Matched date"
-msgstr ""
+msgstr "Нийцүүлсэн огноо"
 
 #: banking/src/components/features/Settings/SettingsDialogContent.tsx:32
 msgid "Matching Rules"
@@ -31842,7 +31842,7 @@ msgstr "Материалын төлөвлөлт"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:326
 msgid "Material Readiness"
-msgstr ""
+msgstr "Материалын бэлэн байдал"
 
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry'
 #. Option for the 'Purpose' (Select) field in DocType 'Stock Entry Type'
@@ -32251,7 +32251,7 @@ msgstr "Хамгийн их дээжийг - {0} багцад {1} болон {2}
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1677
 msgid "Maximum Samples - {0} can be retained for Item {1}."
-msgstr ""
+msgstr "Бараа {1}-д хамгийн ихдээ {0} дээж хадгалж болно."
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1662
 msgid "Maximum Samples - {0} have already been retained for Batch {1} and Item {2} in Batch {3}."
@@ -32417,7 +32417,7 @@ msgstr "Метр/секунд"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:532
 msgid "Method '{0}' must be whitelisted and permit GET requests"
-msgstr ""
+msgstr "'{0}' арга нь зөвшөөрөгдсөн жагсаалтад байх ба GET хүсэлтийг зөвшөөрөх ёстой"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.py:492
 msgid "Method {0} is not allowed to be run on a Job Card."
@@ -32425,7 +32425,7 @@ msgstr "Ажлын карт дээр {0} аргыг ажиллуулахыг з�
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:37
 msgid "Method {0} must permit GET requests"
-msgstr ""
+msgstr "{0} арга нь GET хүсэлтийг зөвшөөрөх ёстой"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -32725,7 +32725,7 @@ msgstr "Бүртгэл алга болсон"
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:274
 msgid "Missing Accounting Dimension"
-msgstr ""
+msgstr "Нягтлан бодох бүртгэлийн хэмжээс дутуу"
 
 #: erpnext/assets/doctype/asset_category/asset_category.py:192
 msgid "Missing Accounts"
@@ -32737,7 +32737,7 @@ msgstr "Алга болсон хөрөнгө"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:1054
 msgid "Missing Company"
-msgstr ""
+msgstr "Компани дутуу"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:187
 #: erpnext/assets/doctype/asset/asset.py:381
@@ -32939,7 +32939,7 @@ msgstr "Нэхэмжлэхийн сарын төгсгөлөөс хойшхи с
 #. Label of a number card in the Manufacturing Workspace
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
 msgid "Monthly Completed Work Order"
-msgstr ""
+msgstr "Сарын гүйцэтгэсэн ажлын захиалга"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:215
 msgid "Monthly Completed Work Orders"
@@ -33226,7 +33226,7 @@ msgstr "Байгалийн хий"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:839
 msgid "Needed by {0}. Quantities are the plan totals, as on the Production Plan."
-msgstr ""
+msgstr "{0}-д шаардлагатай. Тоо хэмжээ нь Үйлдвэрлэлийн төлөвлөгөөн дээрх төлөвлөгөөний нийт дүн юм."
 
 #: erpnext/setup/setup_wizard/data/sales_stage.txt:3
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:448
@@ -33577,7 +33577,7 @@ msgstr "Шинэ хөрөнгийн үнэ цэнэ"
 #. Label of a number card in the Assets Workspace
 #: erpnext/assets/workspace/assets/assets.json
 msgid "New Assets (This Year)"
-msgstr ""
+msgstr "Шинэ хөрөнгө (энэ жил)"
 
 #. Label of the new_bom (Link) field in DocType 'BOM Update Log'
 #. Label of the new_bom (Link) field in DocType 'BOM Update Tool'
@@ -33777,7 +33777,7 @@ msgstr "Шинэ {0} үнийн дүрмийг бий болгосон"
 
 #: erpnext/selling/doctype/quotation/quotation.js:171
 msgid "Newer versions of this Quotation already exist. Create a new version anyway?"
-msgstr ""
+msgstr "Энэ Үнийн саналын шинэ хувилбарууд аль хэдийн байна. Ямар ч байсан шинэ хувилбар үүсгэх үү?"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:34
 msgid "Newspaper Publishers"
@@ -33885,7 +33885,7 @@ msgstr "Тохирох банкны гүйлгээ олдсонгүй"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1592
 msgid "No Material Request created"
-msgstr ""
+msgstr "Материалын хүсэлт үүсгэгдээгүй"
 
 #: erpnext/public/js/templates/crm_notes.html:46
 msgid "No Notes"
@@ -34112,7 +34112,7 @@ msgstr "Сагсанд бараа алга"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:645
 msgid "No items to manufacture in this plan"
-msgstr ""
+msgstr "Энэ төлөвлөгөөнд үйлдвэрлэх бараа байхгүй"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:1073
 msgid "No matches occurred via auto reconciliation"
@@ -34132,7 +34132,7 @@ msgstr "Баруун талд хүүхэд байхгүй"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:378
 msgid "No new GL reposting entries were created for the selected rows."
-msgstr ""
+msgstr "Сонгосон мөрүүдэд ерөнхий дэвтрийг дахин бүртгэх шинэ бичилт үүсгэгдсэнгүй."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:640
 msgid "No of Deliveries"
@@ -34265,7 +34265,7 @@ msgstr "Проформа нэхэмжлэх хараахан байхгүй ба
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:733
 msgid "No raw materials planned for this plan yet"
-msgstr ""
+msgstr "Энэ төлөвлөгөөнд түүхий эд хараахан төлөвлөөгүй байна"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:1029
 msgid "No recent transactions found"
@@ -34325,7 +34325,7 @@ msgstr "Дүрэм хараахан тогтоогдоогүй байна"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1036
 msgid "No schedule yet — use Schedule Items on the Production Plan to build one"
-msgstr ""
+msgstr "Хуваарь хараахан байхгүй — нэгийг үүсгэхийн тулд Үйлдвэрлэлийн төлөвлөгөөн дээр Бараа хуваарилах-ыг ашиглана уу"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:620
 msgid "No stock available for Item {0} in Warehouse {1}"
@@ -34386,7 +34386,7 @@ msgstr "Компани хоорондын гүйлгээний хувьд {0} о
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1695
 msgid "No {0} linked to this Work Order."
-msgstr ""
+msgstr "Энэ Ажлын захиалгатай холбогдсон {0} байхгүй."
 
 #. Label of the no_of_employees (Select) field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
@@ -34444,7 +34444,7 @@ msgstr "Хувьцааны бус барааны хувьд хий үзэгдэ�
 #. field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Non-stock items will not require a Delivery Note. Sales Orders will be marked as Completed once all stock items are delivered and the order is fully billed"
-msgstr ""
+msgstr "Бараа материалын бус бараанд Хүргэлтийн баримт шаардлагагүй. Бүх бараа материал хүргэгдэж, захиалга бүрэн нэхэмжлэгдсэний дараа Борлуулалтын захиалга Дууссан төлөвтэй болно"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:716
 msgid "None of the items have any change in quantity or value."
@@ -34510,7 +34510,7 @@ msgstr "Эхлүүлээгүй"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:105
 msgid "Not Ordered"
-msgstr ""
+msgstr "Захиалаагүй"
 
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:125
 msgid "Not Reconciled"
@@ -34586,7 +34586,7 @@ msgstr "Агуулахад байхгүй"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:750
 msgid "Not linked to a finished good"
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнтэй холбогдоогүй"
 
 #: erpnext/accounts/custom/address.py:71
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:84
@@ -34603,7 +34603,7 @@ msgstr ""
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:399
 #: erpnext/stock/doctype/pick_list/pick_list.py:1663 erpnext/stock/utils.py:111
 msgid "Not permitted for {0}"
-msgstr ""
+msgstr "{0}-д зөвшөөрөгдөөгүй"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1330
 msgid "Not permitted to make Purchase Orders"
@@ -34619,11 +34619,11 @@ msgstr "Серийн дугаарыг шинэчлэхийг зөвшөөрөө�
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:420
 msgid "Not scheduled yet"
-msgstr ""
+msgstr "Хараахан хуваарьт ороогүй"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:549
 msgid "Not started"
-msgstr ""
+msgstr "Эхлээгүй"
 
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log_list.js:21
 msgid "Note: Automatic log deletion only applies to logs of type <i>Update Cost</i>"
@@ -35015,7 +35015,7 @@ msgstr "Замдаа"
 #. Description of the 'Batch split' (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "On completion of the Job Card, split the consumed batch into one child batch per finished piece"
-msgstr ""
+msgstr "Ажлын карт дуусахад зарцуулсан багцыг бэлэн бүтээгдэхүүн бүрт нэг дэд багц болгон хуваана"
 
 #. Description of the 'Enable Immutable Ledger' (Check) field in DocType
 #. 'Accounts Settings'
@@ -35042,7 +35042,7 @@ msgstr "Хадгалсан тохиолдолд Хасагдсан төлбөр�
 #. Description of the 'Batch Split' (Check) field in DocType 'Stock Entry Type'
 #: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
 msgid "On submission of the stock entry, the consumed batch is split into one child batch per finished piece"
-msgstr ""
+msgstr "Бараа материалын гүйлгээг батлахад зарцуулсан багцыг бэлэн бүтээгдэхүүн бүрт нэг дэд багц болгон хуваана"
 
 #. Description of the 'Use Serial / Batch fields' (Check) field in DocType
 #. 'Stock Settings'
@@ -35179,7 +35179,7 @@ msgstr "'Хагас боловсруулсан бүтээгдэхүүнийг х
 
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.py:56
 msgid "Only one supplier can be marked as default in the Supplier Lead Times table"
-msgstr ""
+msgstr "Нийлүүлэгчийн хүргэлтийн хугацааны хүснэгтэд зөвхөн нэг нийлүүлэгчийг анхдагч болгож болно"
 
 #. Description of the 'Is Active' (Check) field in DocType 'Product Bundle'
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -35206,7 +35206,7 @@ msgstr "Зөвхөн ажлын карттай ажлын захиалгыг х�
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:82
 msgid "Only the accounting ledgers (General Ledger and Payment Ledger) will be reposted, and only for the selected rows posted on or after the From Date. Selected rows posted before it are ignored. Stock Ledger Entries and item valuation rates are left untouched."
-msgstr ""
+msgstr "Зөвхөн нягтлан бодох бүртгэлийн дэвтрүүдийг (Ерөнхий дэвтэр ба Төлбөрийн дэвтэр) дахин бүртгэх ба зөвхөн Эхлэх огнооноос хойш бүртгэгдсэн сонгосон мөрүүдэд хамаарна. Түүнээс өмнө бүртгэгдсэн сонгосон мөрүүдийг үл тооно. Бараа материалын дэвтрийн бичилт болон барааны үнэлгээ өөрчлөгдөхгүй."
 
 #. Description of the 'Customer' (Link) field in DocType 'Warehouse'
 #: erpnext/stock/doctype/warehouse/warehouse.json
@@ -35288,7 +35288,7 @@ msgstr "Нээх зүйл {0}"
 #. Label of a number card in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Open Non Conformances"
-msgstr ""
+msgstr "Нээлттэй үл нийцлүүд"
 
 #. Label of the notifications (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -35299,7 +35299,7 @@ msgstr "Нээлттэй мэдэгдлүүд"
 #. Label of a number card in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Open Opportunity"
-msgstr ""
+msgstr "Нээлттэй боломж"
 
 #. Label of the open_orders_section (Section Break) field in DocType 'Master
 #. Production Schedule'
@@ -35321,12 +35321,12 @@ msgstr "Нээлттэй төслүүд "
 #. Label of a number card in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Open Quality Actions"
-msgstr ""
+msgstr "Нээлттэй чанарын арга хэмжээ"
 
 #. Label of a number card in the Quality Workspace
 #: erpnext/quality_management/workspace/quality/quality.json
 msgid "Open Quality Reviews"
-msgstr ""
+msgstr "Нээлттэй чанарын тоймууд"
 
 #. Label of the pending_quotations (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -35629,18 +35629,18 @@ msgstr "Үйл ажиллагааны зардал (цагт)"
 #. Label of the operating_cost (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Operating cost"
-msgstr ""
+msgstr "Үйл ажиллагааны зардал"
 
 #. Label of the operating_cost_per_bom_quantity (Currency) field in DocType
 #. 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Operating cost per BOM quantity"
-msgstr ""
+msgstr "БОМ-ын тоо хэмжээнд ногдох үйл ажиллагааны зардал"
 
 #. Label of the base_operating_cost (Currency) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Operating cost(Company Currency)"
-msgstr ""
+msgstr "Үйл ажиллагааны зардал (Компанийн валютаар)"
 
 #. Label of the section_break_22 (Section Break) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
@@ -35700,7 +35700,7 @@ msgstr "Хэдэн бэлэн бүтээгдэхүүн үйлдвэрлэх аж
 #. Label of the time_in_mins (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Operation time"
-msgstr ""
+msgstr "Үйлдлийн хугацаа"
 
 #. Description of the 'Fixed time' (Check) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
@@ -35759,7 +35759,7 @@ msgstr "Оператор"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:457
 msgid "Operator '{0}' requires a list value"
-msgstr ""
+msgstr "'{0}' оператор жагсаалт утга шаардана"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:217
 msgid "Operator Dashboard"
@@ -36247,7 +36247,7 @@ msgstr "Хуучирсан ПОС нээх бүртгэл"
 #. Label of a chart in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 msgid "Outgoing Bills (Sales Invoice)"
-msgstr ""
+msgstr "Гарах нэхэмжлэх (Борлуулалтын нэхэмжлэх)"
 
 #. Label of the outgoing_rate (Float) field in DocType 'Serial and Batch Entry'
 #. Label of the outgoing_rate (Currency) field in DocType 'Stock Ledger Entry'
@@ -36424,7 +36424,7 @@ msgstr "Хугацаа хэтэрсэн өдрүүд"
 #. Label of a number card in the Support Workspace
 #: erpnext/support/workspace/support/support.json
 msgid "Overdue Issues"
-msgstr ""
+msgstr "Хугацаа хэтэрсэн асуудлууд"
 
 #. Label of the overdue_billing_threshold (Currency) field in DocType 'Customer
 #. Credit Limit'
@@ -36494,7 +36494,7 @@ msgstr "Компани тус бүрээр төлбөрийн анхдагч / �
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Overrides the Purchase Time above for the selected supplier. The row marked as default is used when no supplier is selected."
-msgstr ""
+msgstr "Сонгосон нийлүүлэгчийн хувьд дээрх Худалдан авалтын хугацааг дарж бичнэ. Нийлүүлэгч сонгоогүй үед анхдагч гэж тэмдэглэсэн мөрийг ашиглана."
 
 #. Option for the 'Permanent Address Is' (Select) field in DocType 'Employee'
 #. Option for the 'Current Address Is' (Select) field in DocType 'Employee'
@@ -37051,7 +37051,7 @@ msgstr "Төлсөн дансны төрөл"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:640
 msgid "Paid From and Paid To accounts must be different for an Internal Transfer."
-msgstr ""
+msgstr "Дотоод шилжүүлгийн хувьд Төлсөн данс болон Хүлээн авсан данс өөр байх ёстой."
 
 #: banking/src/components/features/BankReconciliation/TransferModalContent.tsx:329
 msgid "Paid To"
@@ -37264,7 +37264,7 @@ msgstr "Эцэг эхийн агуулах"
 
 #: erpnext/controllers/queries.py:1311
 msgid "Parent document is required to search child rows"
-msgstr ""
+msgstr "Дэд мөрүүдийг хайхад эх баримт шаардлагатай"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py:191
 msgid "Parsed file is not in valid MT940 format or contains no transactions."
@@ -38743,7 +38743,7 @@ msgstr "Боловсруулалт хүлээгдэж байна"
 #. Label of the pending_qty (Float) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Pending qty"
-msgstr ""
+msgstr "Хүлээгдэж буй тоо хэмжээ"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1786
 msgid "Pending quantity cannot be greater than the for quantity."
@@ -38888,7 +38888,7 @@ msgstr "Одоогийн хугацааны хаалтын бичилт"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher_list.js:16
 msgid "Period Closing Failed"
-msgstr ""
+msgstr "Тайлант үеийг хааж чадсангүй"
 
 #. Label of the period_closing_voucher (Link) field in DocType 'Account Closing
 #. Balance'
@@ -39178,7 +39178,7 @@ msgstr "Цуврал / Багцын дугаарыг сонгоно уу"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:81
 msgid "Pick a Production Plan"
-msgstr ""
+msgstr "Үйлдвэрлэлийн төлөвлөгөө сонгох"
 
 #. Label of the picked_qty (Float) field in DocType 'Work Order Item'
 #. Label of the picked_qty (Float) field in DocType 'Material Request Item'
@@ -39332,7 +39332,7 @@ msgstr "Төлөвлөгөөний мөр"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:155
 msgid "Plan Visualizer"
-msgstr ""
+msgstr "Төлөвлөгөөний дүрслэл"
 
 #. Description of the 'Use Multi-Level BOM' (Check) field in DocType 'Work
 #. Order'
@@ -39366,7 +39366,7 @@ msgstr "Төлөвлөсөн"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:972
 msgid "Planned End"
-msgstr ""
+msgstr "Төлөвлөсөн дуусах"
 
 #. Label of the planned_end_date (Datetime) field in DocType 'Production Plan
 #. Item'
@@ -39426,7 +39426,7 @@ msgstr "Төлөвлөсөн тоо хэмжээ"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:971
 msgid "Planned Start"
-msgstr ""
+msgstr "Төлөвлөсөн эхлэх"
 
 #. Label of the planned_start_date (Datetime) field in DocType 'Production Plan
 #. Item'
@@ -39679,7 +39679,7 @@ msgstr "Харилцагчийг {0}-с үүсгэнэ үү."
 #: erpnext/manufacturing/doctype/work_order/work_order.js:351
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1051
 msgid "Please create Item Alternative records for the item {0} to change the finished item."
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүнийг солихын тулд бараа {0}-д Барааны орлуулагч бүртгэл үүсгэнэ үү."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:162
 msgid "Please create Landed Cost Vouchers against Invoices that have 'Update Stock' enabled."
@@ -40166,7 +40166,7 @@ msgstr "BOM сонгоно уу"
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:250
 msgid "Please select a BOM for {0}"
-msgstr ""
+msgstr "{0}-д БОМ сонгоно уу"
 
 #: erpnext/accounts/party.py:505
 #: erpnext/selling/page/sales_funnel/sales_funnel.py:19
@@ -40368,7 +40368,7 @@ msgstr "Дахин нийтлэх оруулга үүсгэхийн тулд з�
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:306
 msgid "Please select rows to create GL Reposting Entries"
-msgstr ""
+msgstr "Ерөнхий дэвтрийг дахин бүртгэх бичилт үүсгэх мөрүүдийг сонгоно уу"
 
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:106
 msgid "Please select rows to create Reposting Entries"
@@ -40376,7 +40376,7 @@ msgstr "Дахин нийтлэх оруулгууд үүсгэх мөрүүди
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:110
 msgid "Please select rows to create {0}"
-msgstr ""
+msgstr "{0} үүсгэх мөрүүдийг сонгоно уу"
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py:98
 msgid "Please select the Company"
@@ -40396,7 +40396,7 @@ msgstr "Үйлчлүүлэгчээ сонгоно уу."
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:309
 msgid "Please select the date to repost the accounting ledgers from"
-msgstr ""
+msgstr "Нягтлан бодох бүртгэлийн дэвтрүүдийг дахин бүртгэж эхлэх огноог сонгоно уу"
 
 #: erpnext/selling/report/sales_person_commission_summary/sales_person_commission_summary.py:43
 #: erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py:58
@@ -40480,7 +40480,7 @@ msgstr "Харилцагчийн имэйл/утасны дугаарыг тох
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1552
 msgid "Please set Finished Good Quantity before fetching items from the BOM."
-msgstr ""
+msgstr "БОМ-оос бараа татахаас өмнө бэлэн бүтээгдэхүүний тоо хэмжээг оруулна уу."
 
 #: erpnext/regional/italy/utils.py:258
 msgid "Please set Fiscal Code for the customer '{0}'"
@@ -40564,7 +40564,7 @@ msgstr "Ажилтан {0} эсвэл Компани {1}-д зориулсан �
 
 #: erpnext/crm/doctype/email_campaign/email_campaign.py:70
 msgid "Please set a primary email ID for the Contact {0}"
-msgstr ""
+msgstr "Холбоо барих хүн {0}-д үндсэн и-мэйл хаяг тохируулна уу"
 
 #: erpnext/accounts/doctype/purchase_invoice/services/gl_composer.py:322
 msgid "Please set account in Warehouse {0}"
@@ -40596,7 +40596,7 @@ msgstr "{0} компанийн татварын дугаар болон санх
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:324
 msgid "Please set company on the Document before requesting for invoices."
-msgstr ""
+msgstr "Нэхэмжлэх хүсэхээс өмнө баримт дээр компанийг тохируулна уу."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:94
 #: erpnext/accounts/doctype/pos_profile/pos_profile.py:206
@@ -40674,7 +40674,7 @@ msgstr "Ажлын картанд WIP агуулахыг тохируулна у
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:81
 msgid "Please set the Weight Per Piece to split the produced quantity into batches in the Stock Entry {0}."
-msgstr ""
+msgstr "Бараа материалын гүйлгээ {0}-д үйлдвэрлэсэн тоо хэмжээг багцуудад хуваахын тулд Нэг ширхэгийн жинг оруулна уу."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:183
 msgid "Please set the cost center field in {0} or setup a default Cost Center for the Company."
@@ -41555,15 +41555,15 @@ msgstr "Үнийн жагсаалт нь худалдан авах эсвэл з
 
 #: erpnext/controllers/accounts_controller.py:391
 msgid "Price List {0} cannot be used on a buying transaction"
-msgstr ""
+msgstr "Үнийн жагсаалт {0}-г худалдан авалтын гүйлгээнд ашиглах боломжгүй"
 
 #: erpnext/controllers/accounts_controller.py:389
 msgid "Price List {0} cannot be used on a selling transaction"
-msgstr ""
+msgstr "Үнийн жагсаалт {0}-г борлуулалтын гүйлгээнд ашиглах боломжгүй"
 
 #: erpnext/controllers/accounts_controller.py:384
 msgid "Price List {0} is disabled"
-msgstr ""
+msgstr "Үнийн жагсаалт {0} идэвхгүй байна"
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order_pricing.py:69
 #: erpnext/stock/doctype/price_list/price_list.py:88
@@ -41572,7 +41572,7 @@ msgstr "Үнийн жагсаалт {0} идэвхгүй эсвэл байхгү
 
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order_pricing.py:72
 msgid "Price List {0} is not enabled for {1}"
-msgstr ""
+msgstr "Үнийн жагсаалт {0} нь {1}-д идэвхжээгүй байна"
 
 #. Label of the price_not_uom_dependent (Check) field in DocType 'Price List'
 #: erpnext/stock/doctype/price_list/price_list.json
@@ -41692,7 +41692,7 @@ msgstr "Үнийн дүрэм нь зарим шалгуурт үндэслэн 
 
 #: erpnext/accounts/doctype/coupon_code/coupon_code.py:64
 msgid "Pricing Rule {0} is disabled"
-msgstr ""
+msgstr "Үнийн дүрэм {0} идэвхгүй байна"
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:250
 msgid "Pricing Rule {0} is updated"
@@ -42037,7 +42037,7 @@ msgstr "Процессын алдагдлын үнэ цэнэ"
 #. Label of the process_loss_qty (Float) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Process Loss qty"
-msgstr ""
+msgstr "Үйлдвэрлэлийн хорогдлын тоо хэмжээ"
 
 #. Label of the process_owner (Data) field in DocType 'Non Conformance'
 #. Label of the process_owner (Link) field in DocType 'Quality Procedure'
@@ -42115,7 +42115,7 @@ msgstr "Энэхүү ажлын захиалгын үйл ажиллагааны
 #. Label of the process_loss_qty (Float) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Process loss qty"
-msgstr ""
+msgstr "Үйлдвэрлэлийн хорогдлын тоо хэмжээ"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1783
 msgid "Process loss quantity cannot be negative."
@@ -42139,7 +42139,7 @@ msgstr "Боловсруулалтын огноо"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher_list.js:14
 msgid "Processing GL Entries"
-msgstr ""
+msgstr "Ерөнхий дэвтрийн бичилтүүдийг боловсруулж байна"
 
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.py:52
 msgid "Processing XML Files"
@@ -42158,7 +42158,7 @@ msgstr "Худалдан авалт"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:506
 msgid "Procurement ({0})"
-msgstr ""
+msgstr "Худалдан авалт ({0})"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -42216,7 +42216,7 @@ msgstr "Үйлдвэрлэсэн тоо хэмжээ"
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Produced quantity is split into one batch per this many units of the finished good"
-msgstr ""
+msgstr "Үйлдвэрлэсэн тоо хэмжээг бэлэн бүтээгдэхүүний энэ олон нэгж тутамд нэг багц болгон хуваана"
 
 #. Option for the 'Price or Product Discount' (Select) field in DocType
 #. 'Pricing Rule'
@@ -42447,7 +42447,7 @@ msgstr "Үйлдвэрлэлийн төлөвлөгөө Тоо ширхэг"
 
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:46
 msgid "Production Plan Quantity Exceeded"
-msgstr ""
+msgstr "Үйлдвэрлэлийн төлөвлөгөөний тоо хэмжээ хэтэрсэн"
 
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_sales_order/production_plan_sales_order.json
@@ -42485,7 +42485,7 @@ msgstr "Үйлдвэрлэлийн төлөвлөгөөний хураангуй
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:4
 msgid "Production Plan Visualizer"
-msgstr ""
+msgstr "Үйлдвэрлэлийн төлөвлөгөөний дүрслэл"
 
 #. Name of a report
 #. Label of a Sidebar Item
@@ -42581,7 +42581,7 @@ msgstr "Проформа"
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Proforma Email Template"
-msgstr ""
+msgstr "Проформа и-мэйлийн загвар"
 
 #. Name of a DocType
 #. Label of the proforma_invoice_section (Section Break) field in DocType
@@ -42775,7 +42775,7 @@ msgstr "Үнийн саналын төслийн мэдээлэл байхгүй
 
 #: erpnext/stock/report/items_to_be_requested/items_to_be_requested.py:31
 msgid "Projected"
-msgstr ""
+msgstr "Төсөөлсөн"
 
 #. Label of the projected_on_hand (Float) field in DocType 'Material Request
 #. Item'
@@ -43636,7 +43636,7 @@ msgstr "Худалдан авах хугацаа"
 #. Label of the purchase_time (Int) field in DocType 'Item Lead Time Supplier'
 #: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
 msgid "Purchase Time (Days)"
-msgstr ""
+msgstr "Худалдан авах хугацаа (өдөр)"
 
 #: erpnext/buying/report/purchase_order_trends/purchase_order_trends.py:62
 msgid "Purchase Value"
@@ -44052,7 +44052,7 @@ msgstr "Барих тоо хэмжээ"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:389
 msgid "Qty to Convert"
-msgstr ""
+msgstr "Хөрвүүлэх тоо хэмжээ"
 
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:347
 msgid "Qty to Deliver"
@@ -44099,7 +44099,7 @@ msgstr "Хүлээн авах тоо хэмжээ"
 #. Label of the finished_good_qty (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Qty to produce"
-msgstr ""
+msgstr "Үйлдвэрлэх тоо хэмжээ"
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:910
 msgid "Qty updated to {0} to match the Serial and Batch Bundle. Please save the document."
@@ -44328,7 +44328,7 @@ msgstr "Ажлын картыг бөглөхөөс өмнө {0} зүйлд ча�
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Quality Inspection required"
-msgstr ""
+msgstr "Чанарын хяналт шаардлагатай"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1091
 msgid "Quality Inspection {0} is Rejected. Resolve the issue or follow your rejection process before submitting the job card."
@@ -44834,11 +44834,11 @@ msgstr "Үнийн саналын чиг хандлага"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:508
 msgid "Quotation {0} is Lost"
-msgstr ""
+msgstr "Үнийн санал {0} алдагдсан"
 
 #: erpnext/selling/doctype/quotation/quotation.py:199
 msgid "Quotation {0} is Lost and cannot be revised."
-msgstr ""
+msgstr "Үнийн санал {0} алдагдсан тул шинэчлэх боломжгүй."
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:505
 msgid "Quotation {0} is cancelled"
@@ -44846,7 +44846,7 @@ msgstr "{0} гэсэн үнийн санал цуцлагдсан"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:511
 msgid "Quotation {0} is inactive"
-msgstr ""
+msgstr "Үнийн санал {0} идэвхгүй байна"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:424
 msgid "Quotation {0} not of type {1}"
@@ -45124,7 +45124,7 @@ msgstr "Харилцагчийн валютыг харилцагчийн үнд�
 #. 'Blanket Order'
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
 msgid "Rate at which Price List Currency is converted to Company Currency"
-msgstr ""
+msgstr "Үнийн жагсаалтын валютыг компанийн валют руу хөрвүүлэх ханш"
 
 #. Description of the 'Price List Exchange Rate' (Float) field in DocType
 #. 'Quotation'
@@ -45159,7 +45159,7 @@ msgstr "Үйлчлүүлэгчийн валютыг компанийн үндс�
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Blanket Order'
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
 msgid "Rate at which document currency is converted to company currency"
-msgstr ""
+msgstr "Баримтын валютыг компанийн валют руу хөрвүүлэх ханш"
 
 #. Description of the 'Exchange Rate' (Float) field in DocType 'Purchase
 #. Receipt'
@@ -45198,7 +45198,7 @@ msgstr "Жилийн хүүгийн хэмжээ (%)"
 #. Label of the rm_cost_as_per (Select) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Rate of Materials based on"
-msgstr ""
+msgstr "Материалын үнийн үндэслэл"
 
 #. Label of the stock_uom_rate (Currency) field in DocType 'Purchase Invoice
 #. Item'
@@ -45393,7 +45393,7 @@ msgstr "Түүхий эд нийлүүлсэн өртөг"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Raw Materials To Be Received"
-msgstr ""
+msgstr "Хүлээн авах түүхий эд"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:883
 msgid "Raw Materials cannot be blank."
@@ -45595,7 +45595,7 @@ msgstr "Баримтын баримт бичгийн төрөл"
 #. Label of the receipt_email_template (Link) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Receipt Email Template"
-msgstr ""
+msgstr "Төлбөрийн баримтын и-мэйлийн загвар"
 
 #. Label of the items (Table) field in DocType 'Landed Cost Voucher'
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
@@ -45604,7 +45604,7 @@ msgstr "Баримтын зүйлс"
 
 #: erpnext/selling/page/point_of_sale/point_of_sale.py:570
 msgid "Receipts can only be emailed for a POS Invoice or a Sales Invoice."
-msgstr ""
+msgstr "Төлбөрийн баримтыг зөвхөн ПОС нэхэмжлэх эсвэл Борлуулалтын нэхэмжлэхийн хувьд и-мэйлээр илгээх боломжтой."
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #. Option for the 'Account Type' (Select) field in DocType 'Payment Ledger
@@ -45883,7 +45883,7 @@ msgstr "Зохицуулалтын алдааны бүртгэл"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:689
 msgid "Reconciliation Failed"
-msgstr ""
+msgstr "Нийцүүлэлт амжилтгүй боллоо"
 
 #: banking/src/components/features/ActionLog/ActionLog.tsx:32
 #: banking/src/components/features/ActionLog/ActionLogDialog.tsx:19
@@ -46591,7 +46591,7 @@ msgstr "Түрээсэлсэн"
 #: erpnext/public/js/utils/item_close.js:19
 #: erpnext/public/js/utils/item_close.js:32
 msgid "Reopen Items"
-msgstr ""
+msgstr "Мөрүүдийг дахин нээх"
 
 #. Label of the reorder_level (Float) field in DocType 'Material Request Item'
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
@@ -46827,7 +46827,7 @@ msgstr "Өгөгдлийн файлыг дахин байршуулж байна
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:54
 msgid "Reposting Entries"
-msgstr ""
+msgstr "Дахин бүртгэх бичилтүүд"
 
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:47
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:96
@@ -47015,7 +47015,7 @@ msgstr "Түүхий эд материалын хүсэлт"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:814
 msgid "Request {0}"
-msgstr ""
+msgstr "{0} хүсэх"
 
 #. Option for the 'Status' (Select) field in DocType 'Payment Request'
 #. Option for the 'Advance Payment Status' (Select) field in DocType 'Sales
@@ -47078,7 +47078,7 @@ msgstr "Хүсэлт гаргагч"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:745
 msgid "Requests"
-msgstr ""
+msgstr "Хүсэлтүүд"
 
 #. Label of the schedule_date (Date) field in DocType 'Purchase Order'
 #. Label of the schedule_date (Date) field in DocType 'Purchase Order Item'
@@ -47375,7 +47375,7 @@ msgstr "Нөөцлөгдсөн хувьцаа"
 
 #: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:90
 msgid "Reserved Stock (Current)"
-msgstr ""
+msgstr "Нөөцөлсөн бараа материал (одоогийн)"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:680
 msgid "Reserved Stock for Raw Materials"
@@ -47522,7 +47522,7 @@ msgstr "Шийдвэрлэсэн"
 #. Label of a number card in the Support Workspace
 #: erpnext/support/workspace/support/support.json
 msgid "Resolved Issues"
-msgstr ""
+msgstr "Шийдвэрлэсэн асуудлууд"
 
 #. Label of the response_by (Datetime) field in DocType 'Issue'
 #: erpnext/support/doctype/issue/issue.json
@@ -47871,7 +47871,7 @@ msgstr "Буцаагдсан тоо хэмжээ"
 
 #: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.py:96
 msgid "Returned by Customer"
-msgstr ""
+msgstr "Харилцагч буцаасан"
 
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.py:109
 msgid "Returned exchange rate is neither integer not float."
@@ -47879,7 +47879,7 @@ msgstr "Буцаагдсан ханш нь бүхэл тоо биш, хөвөг�
 
 #: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.py:113
 msgid "Returned to Customer"
-msgstr ""
+msgstr "Харилцагчид буцаасан"
 
 #. Label of the returns (Float) field in DocType 'Cashier Closing'
 #: erpnext/accounts/doctype/cashier_closing/cashier_closing.json
@@ -48382,19 +48382,19 @@ msgstr "Мөр #{0} (Төлбөрийн хүснэгт): Дүн эерэг ба�
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:838
 #, python-format
 msgid "Row #{0}: % of Component Cost needs a BOM secondary item. Choose Valuation Rate or Manual for {1}."
-msgstr ""
+msgstr "Мөр #{0}: Бүрэлдэхүүний өртгийн %-д БОМ-ын хоёрдогч бараа шаардлагатай. {1}-д Үнэлгээний үнэ эсвэл Гараар сонгоно уу."
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:141
 msgid "Row #{0}: '{1}' cannot be used to search items."
-msgstr ""
+msgstr "Мөр #{0}: '{1}'-ийг бараа хайхад ашиглах боломжгүй."
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:149
 msgid "Row #{0}: '{1}' does not match {2}."
-msgstr ""
+msgstr "Мөр #{0}: '{1}' нь {2}-тэй таарахгүй байна."
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.py:112
 msgid "Row #{0}: '{1}' is not a valid field of {2}."
-msgstr ""
+msgstr "Мөр #{0}: '{1}' нь {2}-ийн хүчинтэй талбар биш."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:777
 msgid "Row #{0}: A Percentage is required for the Item {1} as 'Set Component Quantities Based On Percentage' is enabled."
@@ -48465,7 +48465,7 @@ msgstr "#{0}мөр: Багцын дугаар(ууд) {1} нь холбогдс�
 
 #: erpnext/manufacturing/doctype/bom/bom.py:404
 msgid "Row #{0}: Batch Split is only supported when 'Track Semi Finished Goods' is enabled."
-msgstr ""
+msgstr "Мөр #{0}: Багц хуваах нь зөвхөн 'Хагас боловсруулсан бүтээгдэхүүнийг хянах' идэвхтэй үед дэмжигдэнэ."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:896
 msgid "Row #{0}: Cannot allocate more than {1} against payment term {2}"
@@ -48485,7 +48485,7 @@ msgstr "#{0}мөр: Холбоотой Дэд гэрээт захиалга да
 
 #: erpnext/accounts/services/child_item_update.py:89
 msgid "Row #{0}: Cannot change item {1} because it is closed. Reopen the row first."
-msgstr ""
+msgstr "Мөр #{0}: Бараа {1} хаагдсан тул өөрчлөх боломжгүй. Эхлээд мөрийг дахин нээнэ үү."
 
 #: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:78
 msgid "Row #{0}: Cannot create entry with different taxable AND withholding document links."
@@ -48505,7 +48505,7 @@ msgstr "Мөр #{0}: Аль хэдийн хүлээн авсан {1} зүйли�
 
 #: erpnext/accounts/services/child_item_update.py:517
 msgid "Row #{0}: Cannot delete item {1} which has an issued Proforma Invoice."
-msgstr ""
+msgstr "Мөр #{0}: Проформа нэхэмжлэх гаргасан бараа {1}-ийг устгах боломжгүй."
 
 #: erpnext/accounts/services/child_item_update.py:451
 msgid "Row #{0}: Cannot delete item {1} which has work order assigned to it."
@@ -48533,7 +48533,7 @@ msgstr "Мөр #{0}: Хүүхдийн зүйл нь Бүтээгдэхүүний
 
 #: erpnext/stock/services/serial_batch_bundle_service.py:56
 msgid "Row #{0}: Company {1} does not match with the company {2} in Serial and Batch Bundle {3}."
-msgstr ""
+msgstr "Мөр #{0}: Компани {1} нь Серийн дугаар ба багцын багц {3} дахь компани {2}-тэй таарахгүй байна."
 
 #: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:274
 msgid "Row #{0}: Consumed Asset {1} cannot be Draft"
@@ -48738,11 +48738,11 @@ msgstr "Мөр #{0}: Агуулахад байгаа {1} бараа {2}: Бэл�
 
 #: erpnext/manufacturing/doctype/bom/bom.py:435
 msgid "Row #{0}: Item {1} is already added with the same Type in the Secondary Items table."
-msgstr ""
+msgstr "Мөр #{0}: Бараа {1} хоёрдогч барааны хүснэгтэд ижил төрлөөр аль хэдийн нэмэгдсэн байна."
 
 #: erpnext/controllers/status_updater.py:257
 msgid "Row #{0}: Item {1} is closed in {2} {3} and cannot be processed further"
-msgstr ""
+msgstr "Мөр #{0}: Бараа {1} нь {2} {3}-д хаагдсан тул цааш боловсруулах боломжгүй"
 
 #: erpnext/controllers/subcontracting_inward_controller.py:65
 msgid "Row #{0}: Item {1} is not a Customer Provided Item."
@@ -48767,7 +48767,7 @@ msgstr "Мөр #{0}: {1} бараа нь нөөцийн бараа биш бай
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1059
 msgid "Row #{0}: Item {1} is not an alternative item of the production item {2}."
-msgstr ""
+msgstr "Мөр #{0}: Бараа {1} нь үйлдвэрлэлийн бараа {2}-ийн орлуулах бараа биш."
 
 #: erpnext/stock/doctype/stock_entry/services/disassemble.py:110
 msgid "Row #{0}: Item {1} is not part of the source manufacture entry and cannot be added to this disassembly."
@@ -48961,7 +48961,7 @@ msgstr "#{0}мөр: Татгалзсан барааны хувьд {1} Татг�
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:61
 msgid "Row #{0}: Remove the Serial and Batch Bundle as the batches for the Batch Split item {1} are created automatically."
-msgstr ""
+msgstr "Мөр #{0}: Багц хуваах бараа {1}-ийн багцууд автоматаар үүсдэг тул Серийн дугаар ба багцын багцыг хасна уу."
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:167
 msgid "Row #{0}: Repair cost {1} exceeds available amount {2} for Purchase Invoice {3} and Account {4}"
@@ -49108,7 +49108,7 @@ msgstr "#{0}мөр: {3} барааны хувьд нөөцийн тоо хэмж
 
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.py:48
 msgid "Row #{0}: Supplier {1} is already added in the Supplier Lead Times table"
-msgstr ""
+msgstr "Мөр #{0}: Нийлүүлэгч {1} нийлүүлэгчийн хүргэлтийн хугацааны хүснэгтэд аль хэдийн нэмэгдсэн байна"
 
 #: erpnext/controllers/subcontracting_inward_controller.py:404
 msgid "Row #{0}: Target Warehouse must be same as Customer Warehouse {1} from the linked Subcontracting Inward Order"
@@ -49116,7 +49116,7 @@ msgstr "#{0}мөр: Зорилтот агуулах нь холбогдсон Т
 
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:60
 msgid "Row #{0}: Target Warehouse {1} must be a Transit warehouse when Add to Transit is enabled."
-msgstr ""
+msgstr "Мөр #{0}: Замд шилжүүлэх идэвхтэй үед хүлээн авах агуулах {1} нь замын агуулах байх ёстой."
 
 #: erpnext/stock/services/serial_batch_bundle_service.py:155
 msgid "Row #{0}: The batch {1} has already expired."
@@ -49124,11 +49124,11 @@ msgstr "Мөр #{0}: Багц {1} аль хэдийн хугацаа нь дуу
 
 #: erpnext/manufacturing/doctype/bom/bom.py:422
 msgid "Row #{0}: The item {1} must have 'Has Batch No' and 'Automatically Create New Batch' enabled as the operation {2} is marked as Batch Split."
-msgstr ""
+msgstr "Мөр #{0}: {2} үйлдэл Багц хуваах гэж тэмдэглэгдсэн тул бараа {1}-д 'Багцын дугаартай' болон 'Шинэ багцыг автоматаар үүсгэх' идэвхтэй байх ёстой."
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:71
 msgid "Row #{0}: The item {1} must have 'Has Batch No' and 'Automatically Create New Batch' enabled for the Batch Split operation."
-msgstr ""
+msgstr "Мөр #{0}: Багц хуваах үйлдлийн хувьд бараа {1}-д 'Багцын дугаартай' болон 'Шинэ багцыг автоматаар үүсгэх' идэвхтэй байх ёстой."
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:456
 msgid "Row #{0}: The job card item reference is missing. Kindly create the stock entry from the job card. If you have added the row manually then you won't be able to add job card item reference."
@@ -49136,7 +49136,7 @@ msgstr "Мөр #{0}: Ажлын картын зүйлийн лавлагаа б�
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:71
 msgid "Row #{0}: The line does not belong to Sales Order {1}"
-msgstr ""
+msgstr "Мөр #{0}: Энэ мөр Борлуулалтын захиалга {1}-д хамаарахгүй"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:376
 msgid "Row #{0}: The operation {1} has 'Is Final Finished Good' checked, so its FG / Semi FG Item must be {2}."
@@ -49152,7 +49152,7 @@ msgstr "Мөр #{0}: {1} барааны тоо хэмжээг түүний ху�
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:89
 msgid "Row #{0}: The quantity {1} of the Batch Split item {2} must be a multiple of the Weight Per Piece {3}."
-msgstr ""
+msgstr "Мөр #{0}: Багц хуваах бараа {2}-ийн тоо хэмжээ {1} нь Нэг ширхэгийн жин {3}-ийн үржвэр байх ёстой."
 
 #: erpnext/stock/doctype/item/item.py:626
 msgid "Row #{0}: The warehouse {1} is not a child warehouse of a group warehouse {2}"
@@ -49180,7 +49180,7 @@ msgstr "#{0}мөр: Агуулах {1} нь Цуваа болон Багцын �
 
 #: erpnext/manufacturing/doctype/bom/bom.py:411
 msgid "Row #{0}: Weight Per Piece is required for the Batch Split operation {1}."
-msgstr ""
+msgstr "Мөр #{0}: Багц хуваах үйлдэл {1}-д Нэг ширхэгийн жин шаардлагатай."
 
 #: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:94
 msgid "Row #{0}: Withholding Amount {1} does not match calculated amount {2}."
@@ -49225,11 +49225,11 @@ msgstr "#{0}мөр: {1} нь {2} зүйлийн хувьд сөрөг утгат
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:626
 msgid "Row #{0}: {1} has reserved stock. Unreserve it before closing the row."
-msgstr ""
+msgstr "Мөр #{0}: {1} нөөцөлсөн бараа материалтай байна. Мөрийг хаахаас өмнө нөөцийг цуцална уу."
 
 #: erpnext/controllers/item_close.py:68
 msgid "Row #{0}: {1} is already completed in full, so there is nothing to close"
-msgstr ""
+msgstr "Мөр #{0}: {1} бүрэн гүйцэтгэгдсэн тул хаах зүйл алга"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:379
 msgid "Row #{0}: {1} is not a valid reading field. Please refer to the field description."
@@ -49310,7 +49310,7 @@ msgstr "Мөр {0} : Түүхий эд материалын зүйлийн эс�
 
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:36
 msgid "Row {0} in {1} {2}: Work Order quantity after process loss {3} exceeds the remaining allowed quantity {4}."
-msgstr ""
+msgstr "{1} {2}-ийн мөр {0}: Үйлдвэрлэлийн хорогдлын дараах Ажлын захиалгын тоо хэмжээ {3} нь зөвшөөрөгдсөн үлдэгдэл тоо хэмжээ {4}-өөс хэтэрч байна."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:306
 msgid "Row {0} picked quantity is less than the required quantity, additional {1} {2} required."
@@ -49330,7 +49330,7 @@ msgstr "Мөр {0}: {1} данс нь {2} компанид хамаарахгү�
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:264
 msgid "Row {0}: Accounting Dimension {1} is mandatory for account {2}. Set it on this Taxes and Charges row, or on Item Row {3} ({4})."
-msgstr ""
+msgstr "Мөр {0}: Данс {2}-д Нягтлан бодох бүртгэлийн хэмжээс {1} заавал шаардлагатай. Үүнийг энэ Татвар, хураамжийн мөрөнд эсвэл Барааны мөр {3} ({4})-д тохируулна уу."
 
 #: erpnext/projects/doctype/timesheet/timesheet.py:164
 msgid "Row {0}: Activity Type is mandatory."
@@ -49701,7 +49701,7 @@ msgstr "{0} доторх мөрүүдийг устгасан"
 
 #: erpnext/controllers/item_close.py:49
 msgid "Rows of {0} cannot be closed individually"
-msgstr ""
+msgstr "{0}-ийн мөрүүдийг тус тусад нь хаах боломжгүй"
 
 #. Description of the 'Merge similar Account Heads' (Check) field in DocType
 #. 'Accounts Settings'
@@ -49874,7 +49874,7 @@ msgstr "SMS төв"
 
 #: erpnext/patches/v16_0/add_transaction_roles_to_sms_settings.py:22
 msgid "SMS Settings.allowed_roles not found. Update the Frappe Framework app to a version that includes this field, then re-run bench migrate."
-msgstr ""
+msgstr "SMS Settings.allowed_roles олдсонгүй. Frappe Framework-ийг энэ талбарыг агуулсан хувилбар руу шинэчлээд bench migrate-ийг дахин ажиллуулна уу."
 
 #: erpnext/selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:46
 msgid "SO Qty"
@@ -50825,7 +50825,7 @@ msgstr "Дээжийн хэмжээ"
 
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.py:163
 msgid "Sample Size must be greater than zero"
-msgstr ""
+msgstr "Дээжийн хэмжээ тэгээс их байх ёстой"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1629
 msgid "Sample quantity {0} cannot be more than received quantity {1}"
@@ -50849,7 +50849,7 @@ msgstr "Өөрчлөлтийг хадгалж, шинэ нэхэмжлэх ач�
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1655
 msgid "Save the Work Order to view linked documents."
-msgstr ""
+msgstr "Холбогдсон баримтуудыг харахын тулд Ажлын захиалгыг хадгална уу."
 
 #: banking/src/components/features/Settings/KeyboardShortcuts.tsx:47
 msgid "Save the currently opened form"
@@ -51065,7 +51065,7 @@ msgstr "Хуваарь гаргах"
 #. Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Scheduling & Costing"
-msgstr ""
+msgstr "Хуваарь ба өртөг"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.js:23
 msgid "Scheduling..."
@@ -51191,7 +51191,7 @@ msgstr "Хайлтын компани..."
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:605
 msgid "Search item or document..."
-msgstr ""
+msgstr "Бараа эсвэл баримт хайх..."
 
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:339
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:201
@@ -51616,7 +51616,7 @@ msgstr "Дор хаяж нэг шинж чанарын утга сонгоно �
 #: erpnext/controllers/item_close.py:54
 #: erpnext/public/js/utils/item_close.js:57
 msgid "Select at least one row"
-msgstr ""
+msgstr "Дор хаяж нэг мөр сонгоно уу"
 
 #: erpnext/public/js/utils/party.js:379
 msgid "Select company first"
@@ -51878,7 +51878,7 @@ msgstr "Хагас боловсруулсан бүтээгдэхүүн / Бэл�
 #. 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Semi finished goods"
-msgstr ""
+msgstr "Хагас боловсруулсан бүтээгдэхүүн"
 
 #. Label of the send_after_days (Int) field in DocType 'Campaign Email
 #. Schedule'
@@ -52204,7 +52204,7 @@ msgstr "Баталгаат хугацаа дуусаагүй цуврал"
 
 #: erpnext/stock/doctype/item/item.py:1183
 msgid "Serial No Wise Valuation cannot be enabled for Item {0} because Serial Nos already exist for it. Valuation for those Serial Nos was not tracked, so enabling it now would value outward entries incorrectly."
-msgstr ""
+msgstr "Бараа {0}-д Серийн дугаар аль хэдийн байгаа тул Серийн дугаараар үнэлэхийг идэвхжүүлэх боломжгүй. Тэдгээр серийн дугаарын үнэлгээг хянаагүй тул одоо идэвхжүүлбэл зарлагын бичилтийг буруу үнэлнэ."
 
 #. Label of the serial_no_and_batch_section (Section Break) field in DocType
 #. 'Pick List Item'
@@ -52279,7 +52279,7 @@ msgstr "Серийн дугаар {0} аль хэдийн {1}хэрэглэгч�
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:212
 msgid "Serial No {0} is not available in the selected inventory dimensions: {1}"
-msgstr ""
+msgstr "Серийн дугаар {0} сонгосон бараа материалын хэмжээсүүдэд байхгүй байна: {1}"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:542
 msgid "Serial No {0} is not present in the {1} {2}, hence you can't return it against the {1} {2}"
@@ -52322,7 +52322,7 @@ msgstr "Серийн дугаар / багцууд"
 
 #: erpnext/stock/doctype/item/item.py:1186
 msgid "Serial Nos Exist"
-msgstr ""
+msgstr "Серийн дугаар бүртгэлтэй байна"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2138
 msgid "Serial Nos are created successfully"
@@ -52487,7 +52487,7 @@ msgstr "Цуврал болон багцын хураангуй"
 #. Name of a report
 #: erpnext/stock/report/serial_and_batch_wise_stock_balance/serial_and_batch_wise_stock_balance.json
 msgid "Serial and Batch Wise Stock Balance"
-msgstr ""
+msgstr "Серийн дугаар ба багцаарх бараа материалын үлдэгдэл"
 
 #: erpnext/stock/utils.py:496
 msgid "Serial number {0} entered more than once"
@@ -52500,7 +52500,7 @@ msgstr "Агуулахын {1}доорх {0} барааны серийн дуг�
 #. Description of the 'Valuation Method' (Select) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Serialized items are valued at Moving Average once stock transactions exist and Serial No Wise Valuation is disabled."
-msgstr ""
+msgstr "Бараа материалын гүйлгээ бий болсон бөгөөд Серийн дугаараар үнэлэх идэвхгүй бол серийн дугаартай барааг Хөдөлгөөнт дунджаар үнэлнэ."
 
 #. Label of the series_for_depreciation_entry (Data) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -52902,13 +52902,13 @@ msgstr "Нээлттэй гэж тохируулах"
 #. Label of the is_phantom_bom (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set as Phantom BOM"
-msgstr ""
+msgstr "Хийсвэр БОМ болгох"
 
 #. Description of the 'Is sub assembly Item' (Check) field in DocType 'BOM
 #. Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Set automatically when this component is a semi-finished good produced by an operation in this BOM. It's made in-house during the process, so it's excluded from raw-material requirement and explosion calculations to avoid double-counting."
-msgstr ""
+msgstr "Энэ бүрэлдэхүүн нь энэ БОМ-ын аль нэг үйлдлээр үйлдвэрлэгдэх хагас боловсруулсан бүтээгдэхүүн бол автоматаар тохирно. Үйлдвэрлэлийн явцад дотооддоо хийгддэг тул давхар тооцохоос сэргийлж түүхий эдийн хэрэгцээ болон задаргааны тооцооноос хасагдана."
 
 #. Label of the set_by_item_tax_template (Check) field in DocType 'Advance
 #. Taxes and Charges'
@@ -52929,7 +52929,7 @@ msgstr "Банкны хуулгад заасны дагуу эцсийн үлд�
 #. Label of the set_qty_based_on_percentage (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Set component quantities based on percentage"
-msgstr ""
+msgstr "Бүрэлдэхүүний тоо хэмжээг хувиар тохируулах"
 
 #: erpnext/setup/doctype/company/company.py:669
 msgid "Set default inventory account for perpetual inventory"
@@ -52955,7 +52955,7 @@ msgstr "Хугацаа нь дууссан багцын хувьд ирж буй
 #. Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Set operating cost based on BOM Quantity"
-msgstr ""
+msgstr "Үйл ажиллагааны зардлыг БОМ-ын тоо хэмжээнд үндэслэн тохируулах"
 
 #: erpnext/manufacturing/doctype/bom/bom.js:1253
 msgid "Set quantity of process loss item:"
@@ -52965,7 +52965,7 @@ msgstr "Процессын алдагдлын зүйлийн тоо хэмжээ
 #. DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Set rate based on sub-assembly BOM"
-msgstr ""
+msgstr "Үнийг дэд угсралтын БОМ-д үндэслэн тохируулах"
 
 #. Description of the 'Sales Person Targets' (Section Break) field in DocType
 #. 'Sales Person'
@@ -53301,7 +53301,7 @@ msgstr "Тээврийн данс"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:66
 msgid "Shipping Account {0} does not belong to Company {1}"
-msgstr ""
+msgstr "Тээврийн данс {0} нь Компани {1}-д хамаарахгүй"
 
 #. Option for the 'Determine Address Tax Category from' (Select) field in
 #. DocType 'Accounts Settings'
@@ -53991,7 +53991,7 @@ msgstr "Ганц хувилбар"
 #. Label of the skip_delivery (Check) field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 msgid "Skip Delivery"
-msgstr ""
+msgstr "Хүргэлтийг алгасах"
 
 #. Label of the skip_delivery_note (Check) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -54002,7 +54002,7 @@ msgstr "Хүргэлтийн тэмдэглэлийг алгасах"
 #. 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Skip Delivery Note Creation for Service Items"
-msgstr ""
+msgstr "Үйлчилгээний бараанд Хүргэлтийн баримт үүсгэхийг алгасах"
 
 #. Label of the skip_material_transfer (Check) field in DocType 'Work Order
 #. Operation'
@@ -54216,7 +54216,7 @@ msgstr "Эх сурвалж болон зорилтот агуулах өөр б
 #. Label of the section_break_zpik (Section Break) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Source details"
-msgstr ""
+msgstr "Эх сурвалжийн мэдээлэл"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:158
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:264
@@ -54268,7 +54268,7 @@ msgstr "Тээвэрлэлтийн хэмжээг тооцоолох нөхцө�
 #. 'Global Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "Speeds up Item search on large catalogues. Requires a single app server: the index is a file on that server's disk, and several servers would each answer from a different copy. Building it takes about 20 minutes for 3 million items, and runs in the background."
-msgstr ""
+msgstr "Том каталогт барааны хайлтыг хурдасгана. Ганц апп сервер шаардлагатай: индекс нь тухайн серверийн диск дээрх файл тул олон сервертэй бол сервер бүр өөр хуулбараас хариулна. 3 сая бараанд индекс үүсгэхэд 20 орчим минут шаардагдах ба арын горимд ажиллана."
 
 #: erpnext/accounts/doctype/budget/budget.py:220
 msgid "Spending for Account {0} ({1}) between {2} and {3} has already exceeded the new allocated budget. Spent: {4}, Budget: {5}"
@@ -54331,7 +54331,7 @@ msgstr "Комиссын зээлийг хэд хэдэн борлуулалты
 #. Description of the 'Weight Per Piece' (Float) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Splits the produced quantity into one batch per this many units"
-msgstr ""
+msgstr "Үйлдвэрлэсэн тоо хэмжээг энэ олон нэгж тутамд нэг багц болгон хуваана"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:604
 #: erpnext/public/js/controllers/buying.js:565
@@ -54794,7 +54794,7 @@ msgstr "Хувьцаа хаах бүртгэл шаардлагатай"
 
 #: erpnext/stock/report/serial_and_batch_wise_stock_balance/serial_and_batch_wise_stock_balance.js:16
 msgid "Stock Closing Entry is ignored in this report. Balances are computed from the full stock ledger."
-msgstr ""
+msgstr "Энэ тайланд Бараа материалын хаалтын бичилтийг тооцохгүй. Үлдэгдлийг бараа материалын дэвтрийн бүрэн бичилтээс тооцно."
 
 #: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:120
 msgid "Stock Closing Entry {0} already exists for the selected date range"
@@ -54839,7 +54839,7 @@ msgstr "Хувьцааны дэлгэрэнгүй мэдээлэл"
 #. Label of the stock_entry_list_html (HTML) field in DocType 'Work Order'
 #: erpnext/manufacturing/doctype/work_order/work_order.json
 msgid "Stock Entries"
-msgstr ""
+msgstr "Бараа материалын гүйлгээнүүд"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:483
 msgid "Stock Entries already created for Work Order {0}: {1}"
@@ -55570,7 +55570,7 @@ msgstr "Хуучин дансанд бараа материалын бичилт
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1269
 msgid "Stock for this warehouse is not visible to you"
-msgstr ""
+msgstr "Энэ агуулахын бараа материал танд харагдахгүй"
 
 #. Label of the stock_frozen_upto (Date) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
@@ -55735,7 +55735,7 @@ msgstr "Дэд журам"
 #. Label of the column_break_3 (Column Break) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "Sub assembly"
-msgstr ""
+msgstr "Дэд угсралт"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:327
 msgid "Sub assembly item references are missing. Please fetch the sub assemblies and raw materials again."
@@ -55791,7 +55791,7 @@ msgstr "Хүлээн авах гэрээт бараа"
 #. Name of a report
 #: erpnext/subcontracting/report/subcontracted_items_to_be_delivered/subcontracted_items_to_be_delivered.json
 msgid "Subcontracted Items To Be Delivered"
-msgstr ""
+msgstr "Хүргэх туслан гүйцэтгэлийн бараанууд"
 
 #: erpnext/stock/doctype/material_request/material_request.js:247
 msgid "Subcontracted Purchase Order"
@@ -55808,7 +55808,7 @@ msgstr "Туслан гүйцэтгэсэн тоо хэмжээ"
 #. Name of a report
 #: erpnext/subcontracting/report/subcontracted_raw_materials_to_be_received/subcontracted_raw_materials_to_be_received.json
 msgid "Subcontracted Raw Materials To Be Received"
-msgstr ""
+msgstr "Хүлээн авах туслан гүйцэтгэлийн түүхий эд"
 
 #. Name of a report
 #: erpnext/buying/report/subcontracted_raw_materials_to_be_transferred/subcontracted_raw_materials_to_be_transferred.json
@@ -55913,7 +55913,7 @@ msgstr "Дотоод захиалгын үйлчилгээний барааг т
 #. Name of a report
 #: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.json
 msgid "Subcontracting Inward Order Summary"
-msgstr ""
+msgstr "Туслан гүйцэтгэлийн хүлээн авах захиалгын хураангуй"
 
 #. Label of the subcontracting_order (Link) field in DocType 'Stock Entry'
 #. Option for the 'Voucher Type' (Select) field in DocType 'Stock Reservation
@@ -56043,13 +56043,13 @@ msgstr "Дэд хэсэг"
 #. Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Subject and message for receipts emailed from the POS. The template gets the invoice as doc. A message typed by the cashier replaces the template message. Leave empty to send the default email."
-msgstr ""
+msgstr "ПОС-оос и-мэйлээр илгээх төлбөрийн баримтын гарчиг ба мессеж. Загварт нэхэмжлэхийг doc болгон дамжуулна. Кассчны бичсэн мессеж загварын мессежийг орлоно. Анхдагч и-мэйл илгээх бол хоосон үлдээнэ үү."
 
 #. Description of the 'Proforma Email Template' (Link) field in DocType
 #. 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 msgid "Subject and message used when emailing a Proforma Invoice. The template gets the Proforma Invoice as doc, e.g. {{ doc.customer_name }}. Leave empty to send the default text."
-msgstr ""
+msgstr "Проформа нэхэмжлэхийг и-мэйлээр илгээхэд ашиглах гарчиг ба мессеж. Загварт Проформа нэхэмжлэхийг doc болгон дамжуулна, жишээ нь {{ doc.customer_name }}. Анхдагч текст илгээх бол хоосон үлдээнэ үү."
 
 #: erpnext/buying/doctype/purchase_order/mapper.py:251
 #: erpnext/subcontracting/doctype/subcontracting_receipt/mapper.py:135
@@ -56616,7 +56616,7 @@ msgstr "Нийлүүлэгчийн хүргэлтийн хугацаа (хоно
 #. Label of the supplier_lead_times (Table) field in DocType 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Supplier Lead Times"
-msgstr ""
+msgstr "Нийлүүлэгчийн хүргэлтийн хугацаа"
 
 #. Label of a Sidebar Item
 #. Label of a Workspace Sidebar Item
@@ -56758,11 +56758,11 @@ msgstr "Нийлүүлэгчийн үнийн санал {0} Үүсгэсэн"
 
 #: erpnext/buying/doctype/request_for_quotation/mapper.py:120
 msgid "Supplier Quotation {0} already exists against Request for Quotation {1}"
-msgstr ""
+msgstr "Үнийн санал авах хүсэлт {1}-д Нийлүүлэгчийн үнийн санал {0} аль хэдийн бүртгэлтэй байна"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:431
 msgid "Supplier Quotation {0} is cancelled"
-msgstr ""
+msgstr "Нийлүүлэгчийн үнийн санал {0} цуцлагдсан байна"
 
 #: erpnext/setup/setup_wizard/data/marketing_source.txt:6
 msgid "Supplier Reference"
@@ -56857,7 +56857,7 @@ msgstr "Нийлүүлэгчийн агуулах"
 #. 'Item Lead Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "Supplier Wise Purchase Time"
-msgstr ""
+msgstr "Нийлүүлэгч тус бүрийн худалдан авах хугацаа"
 
 #. Label of the delivered_by_supplier (Check) field in DocType 'Sales Order
 #. Item'
@@ -58260,16 +58260,16 @@ msgstr "{0} дугаартай багцыг {1} {2}-тай харьцуулан 
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:109
 msgid "The Batch Split entry {0} must consume exactly one batch tracked raw material, found {1} ({2})."
-msgstr ""
+msgstr "Багц хуваах бичилт {0} нь багцаар хянагддаг яг нэг түүхий эд зарцуулах ёстой, {1} ({2}) олдлоо."
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:55
 msgid "The Batch Split entry {0} must have exactly one finished good row."
-msgstr ""
+msgstr "Багц хуваах бичилт {0} нь яг нэг бэлэн бүтээгдэхүүний мөртэй байх ёстой."
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:101
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:120
 msgid "The Batch Split operation requires a batch tracked raw material to be consumed in the Stock Entry {0}."
-msgstr ""
+msgstr "Багц хуваах үйлдэлд Бараа материалын гүйлгээ {0}-д багцаар хянагддаг түүхий эд зарцуулах шаардлагатай."
 
 #: erpnext/stock/serial_batch_bundle.py:1717
 msgid "The Batch {0} has negative batch quantity {1}. To fix this, go to the batch and click on Recalculate Batch Qty. If the issue still persists, create an inward entry."
@@ -58405,7 +58405,7 @@ msgstr "{0} багц нь {1} агуулахад {2} -д зориулж нөөц
 
 #: erpnext/stock/doctype/stock_entry/services/batch_split.py:185
 msgid "The batches consumed in the Stock Entry {0} can supply only {1} whole pieces of {2} units each, but {3} pieces are required. Reduce the finished quantity or consume larger batches."
-msgstr ""
+msgstr "Бараа материалын гүйлгээ {0}-д зарцуулсан багцууд нь тус бүр {2} нэгжтэй зөвхөн {1} бүтэн ширхэг нийлүүлэх боломжтой, харин {3} ширхэг шаардлагатай. Бэлэн бүтээгдэхүүний тоо хэмжээг бууруулах эсвэл илүү том багц зарцуулна уу."
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:193
 msgid "The closing balance {0} of the Stock Asset accounts does not match the closing value {1} of the Stock Balance report as on {2}. Resolve the difference using the Stock Ledger Variance report before closing the period."
@@ -58433,7 +58433,7 @@ msgstr "{1} үйл ажиллагааны {0} дууссан тоо хэмжээ
 
 #: erpnext/manufacturing/doctype/bom/bom.py:547
 msgid "The cost of the secondary items cannot exceed the raw material cost of {0}."
-msgstr ""
+msgstr "Хоёрдогч бараануудын өртөг {0}-ийн түүхий эдийн өртгөөс хэтэрч болохгүй."
 
 #: erpnext/accounts/doctype/dunning/dunning.py:88
 msgid "The currency of invoice {0} ({1}) is different from the currency of this dunning ({2})."
@@ -58557,7 +58557,7 @@ msgstr "Дараах мөрүүд давхардсан байна:"
 
 #: erpnext/accounts/doctype/pos_settings/pos_settings.js:59
 msgid "The following rows are not valid fields of {0} and have to be removed: {1}"
-msgstr ""
+msgstr "Дараах мөрүүд {0}-ийн хүчинтэй талбар биш тул хасах шаардлагатай: {1}"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:130
 msgid "The following vouchers are not submitted: {0}"
@@ -58654,11 +58654,11 @@ msgstr "Бусад бүрэлдэхүүн хэсгүүдийн нийт дүн {
 
 #: erpnext/manufacturing/doctype/bom/bom.js:1065
 msgid "The other components already total {0}%, so no percentage remains for the Balance Item."
-msgstr ""
+msgstr "Бусад бүрэлдэхүүний нийлбэр аль хэдийн {0}% болсон тул үлдэгдэл бараанд хувь үлдсэнгүй."
 
 #: erpnext/selling/doctype/quotation/quotation.js:155
 msgid "The other versions of this Quotation will also be set as Lost. Continue?"
-msgstr ""
+msgstr "Энэ Үнийн саналын бусад хувилбарууд мөн Алдагдсан болно. Үргэлжлүүлэх үү?"
 
 #: erpnext/controllers/accounts_controller.py:199
 msgid "The outstanding amount {0} in {1} is lesser than {2}. Updating the outstanding to this invoice."
@@ -58712,15 +58712,15 @@ msgstr "{0} үнийн жагсаалт байхгүй эсвэл идэвхгү
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:360
 msgid "The produced qty of the item {0} has already been converted in full."
-msgstr ""
+msgstr "{0} барааны үйлдвэрлэсэн тоо хэмжээ аль хэдийн бүрэн хөрвүүлэгдсэн байна."
 
 #: erpnext/manufacturing/doctype/work_order/mapper.py:321
 msgid "The qty to convert must be greater than zero."
-msgstr ""
+msgstr "Хөрвүүлэх тоо хэмжээ тэгээс их байх ёстой."
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1090
 msgid "The qty {0} of the item {1} to convert cannot be more than the available produced qty {2} against the Work Order {3}."
-msgstr ""
+msgstr "Хөрвүүлэх {1} барааны тоо хэмжээ {0} нь Ажлын захиалга {3}-ийн үйлдвэрлэсэн боломжит тоо хэмжээ {2}-оос их байж болохгүй."
 
 #. Description of the 'Last Purchase Rate' (Float) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -58836,7 +58836,7 @@ msgstr "Материалын хүсэлт {1} дахь Гаргасан / Шил
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1106
 msgid "The total qty {0} of the alternative finished goods must be equal to the converted qty {1} of the production item {2}."
-msgstr ""
+msgstr "Орлуулах бэлэн бүтээгдэхүүний нийт тоо хэмжээ {0} нь үйлдвэрлэлийн бараа {2}-ийн хөрвүүлсэн тоо хэмжээ {1}-тэй тэнцүү байх ёстой."
 
 #: erpnext/edi/doctype/code_list/code_list_import.py:46
 msgid "The uploaded file could not be parsed as a genericode XML document."
@@ -59039,7 +59039,7 @@ msgstr "Төлбөрийн оруулгын холбоосыг салгахад 
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:204
 msgid "These items have no default BOM. Select one to create Work Orders."
-msgstr ""
+msgstr "Эдгээр бараанд анхдагч БОМ байхгүй. Ажлын захиалга үүсгэхийн тулд нэгийг сонгоно уу."
 
 #. Description of the 'Zero Balance' (Check) field in DocType 'Exchange Rate
 #. Revaluation Account'
@@ -59050,7 +59050,7 @@ msgstr "Энэ данс нь үндсэн валютаар эсвэл дансн
 #. Description of the 'Set as default' (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "This BOM will be selected by default in Work Orders etc. when the Item is selected."
-msgstr ""
+msgstr "Барааг сонгоход энэ БОМ Ажлын захиалга зэрэгт анхдагчаар сонгогдоно."
 
 #: erpnext/stock/doctype/item/item.js:242
 msgid "This Item is a Template and cannot be used in transactions.<br>All fields present in the 'Copy Fields to Variant' table in Item Variant Settings will be copied to its variant items."
@@ -59063,7 +59063,7 @@ msgstr "Энэ зүйл нь {0} (Загвар)-ын хувилбар юм."
 #: erpnext/manufacturing/doctype/job_card/mapper.py:106
 #: erpnext/manufacturing/doctype/workstation/workstation.py:291
 msgid "This Job Card has no raw materials to transfer."
-msgstr ""
+msgstr "Энэ Ажлын картад шилжүүлэх түүхий эд байхгүй."
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:175
 msgid "This Month's Summary"
@@ -59372,7 +59372,7 @@ msgstr "Энэ хэсэг нь хэрэглэгчдэд хэл дээр үндэ
 #. Description of the 'Secondary Items' (Section Break) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "This section can be used to record the co-products, by-products, scrap, or additional finished goods that come out of the same production run alongside the main item, and to set how much of the total cost is allocated to each of them."
-msgstr ""
+msgstr "Энэ хэсэгт үндсэн бараатай хамт нэг үйлдвэрлэлийн явцаас гарах хамтарсан бүтээгдэхүүн, дайвар бүтээгдэхүүн, хаягдал эсвэл нэмэлт бэлэн бүтээгдэхүүнийг бүртгэж, нийт өртгөөс тус бүрд хэдийг хуваарилахыг тохируулна."
 
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:1266
 #: erpnext/accounts/doctype/bank_statement_import_log/bank_statement_import_log.py:1286
@@ -59563,7 +59563,7 @@ msgstr "Минутаар цаг."
 #. Label of the scheduled_time_tab (Tab Break) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Time logs"
-msgstr ""
+msgstr "Цагийн бүртгэл"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:951
 msgid "Time logs are required for {0} {1}"
@@ -59625,7 +59625,7 @@ msgstr "Цагийн хуудасны дэлгэрэнгүй мэдээлэл"
 #. Label of a number card in the Projects Workspace
 #: erpnext/projects/workspace/projects/projects.json
 msgid "Timesheet Working Hours"
-msgstr ""
+msgstr "Цагийн хуудасны ажлын цаг"
 
 #: erpnext/config/projects.py:55
 msgid "Timesheet for tasks."
@@ -59656,11 +59656,11 @@ msgstr "Цагийн хуваарь"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:195
 msgid "Tip"
-msgstr ""
+msgstr "Зөвлөмж"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:198
 msgid "Tip: Select report lines to view their accounts"
-msgstr ""
+msgstr "Зөвлөмж: Тайлангийн мөрүүдийг сонгож тэдгээрийн дансыг харна уу"
 
 #. Option for the 'Status' (Select) field in DocType 'Purchase Order'
 #. Option for the 'Sales Order Status' (Select) field in DocType 'Production
@@ -60077,7 +60077,7 @@ msgstr "Багаж хэрэгсэл"
 #. Label of a chart in the ERPNext Settings Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
 msgid "Top Customers"
-msgstr ""
+msgstr "Шилдэг харилцагчид"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -60238,7 +60238,7 @@ msgstr "Нийт хөрөнгийн өртөг"
 #. Label of a number card in the Assets Workspace
 #: erpnext/assets/workspace/assets/assets.json
 msgid "Total Assets"
-msgstr ""
+msgstr "Нийт хөрөнгө"
 
 #. Label of the total_billable_amount (Currency) field in DocType 'Timesheet'
 #: erpnext/projects/doctype/timesheet/timesheet.json
@@ -60324,7 +60324,7 @@ msgstr "Нийт дууссан тоо хэмжээ ({0}), Процессын а
 #. Label of the total_completed_qty (Float) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 msgid "Total Completed qty"
-msgstr ""
+msgstr "Нийт гүйцэтгэсэн тоо хэмжээ"
 
 #. Label of the total_consumed_material_cost (Currency) field in DocType
 #. 'Project'
@@ -60492,14 +60492,14 @@ msgstr "Энэ жилийн нийт орлого"
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 msgid "Total Incoming Bills"
-msgstr ""
+msgstr "Нийт ирсэн нэхэмжлэх"
 
 #. Label of a number card in the Accounting Workspace
 #. Label of a number card in the Payments Workspace
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/accounts/workspace/payments/payments.json
 msgid "Total Incoming Payment"
-msgstr ""
+msgstr "Нийт орсон төлбөр"
 
 #. Label of the total_incoming_value (Currency) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
@@ -60515,7 +60515,7 @@ msgstr "Нийт хүү"
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Total Invoice Amount"
-msgstr ""
+msgstr "Нийт нэхэмжлэхийн дүн"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:199
 #: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.html:135
@@ -60638,7 +60638,7 @@ msgstr "Нийт гаралт"
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/accounts/workspace/payments/payments.json
 msgid "Total Outgoing Bills"
-msgstr ""
+msgstr "Нийт гарсан нэхэмжлэх"
 
 #. Label of a number card in the Financial Reports Workspace
 #. Label of a number card in the Invoicing Workspace
@@ -60647,7 +60647,7 @@ msgstr ""
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/accounts/workspace/payments/payments.json
 msgid "Total Outgoing Payment"
-msgstr ""
+msgstr "Нийт гарсан төлбөр"
 
 #. Label of the total_outgoing_value (Currency) field in DocType 'Stock Entry'
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
@@ -60679,7 +60679,7 @@ msgstr "Нийт төлсөн дүн"
 #. Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Total Payment Amount"
-msgstr ""
+msgstr "Нийт төлбөрийн дүн"
 
 #: erpnext/accounts/services/payment_schedule.py:293
 msgid "Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total"
@@ -61037,11 +61037,11 @@ msgstr "Бүх зүйлийн нийт {0} нь тэг байна, магадг�
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:97
 msgid "Total {0} of all items is zero, charges cannot be distributed on it."
-msgstr ""
+msgstr "Бүх барааны нийт {0} тэг байгаа тул зардлыг хуваарилах боломжгүй."
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:320
 msgid "Total {0} of all items is zero. Set 'Distribute Charges Based On' to {1}."
-msgstr ""
+msgstr "Бүх барааны нийт {0} тэг байна. 'Зардлыг хуваарилах үндэслэл'-ийг {1} болгоно уу."
 
 #: erpnext/controllers/trends.py:26 erpnext/controllers/trends.py:33
 msgid "Total(Amt)"
@@ -61080,7 +61080,7 @@ msgstr "Нийт дүн (Компанийн валют)"
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:14
 #: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:14
 msgid "Totals are dropped when the companies use different currencies"
-msgstr ""
+msgstr "Компаниуд өөр валют ашигладаг бол нийлбэр дүнг харуулахгүй"
 
 #: erpnext/stock/doctype/item/item_dashboard.py:33
 msgid "Traceability"
@@ -61111,12 +61111,12 @@ msgstr "Баталгаат хугацаа болон буцаалтын хяна
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:82
 msgid "Track readiness, shortages, work orders and the shop floor schedule on one screen."
-msgstr ""
+msgstr "Бэлэн байдал, дутагдал, ажлын захиалга болон цехийн хуваарийг нэг дэлгэц дээр хянах."
 
 #. Label of the track_semi_finished_goods (Check) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Track semi finished goods"
-msgstr ""
+msgstr "Хагас боловсруулсан бүтээгдэхүүнийг хянах"
 
 #. Description of a DocType
 #: erpnext/accounts/doctype/cost_center/cost_center.json
@@ -61173,7 +61173,7 @@ msgstr "Гүйлгээний огноо"
 
 #: erpnext/selling/doctype/quotation/quotation.py:204
 msgid "Transaction Date must be after {0}, the date of the latest version of this Quotation."
-msgstr ""
+msgstr "Гүйлгээний огноо нь энэ Үнийн саналын хамгийн сүүлийн хувилбарын огноо болох {0}-өөс хойш байх ёстой."
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:172
 #: banking/src/pages/BankStatementImporter.tsx:253
@@ -61461,7 +61461,7 @@ msgstr "Шилжүүлэг ба Олголт"
 #. Label of the transfer_material_against (Select) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
 msgid "Transfer material against"
-msgstr ""
+msgstr "Материал шилжүүлэх үндэслэл"
 
 #: erpnext/public/js/shop_floor/shop_floor.js:1465
 msgid "Transfer materials"
@@ -62038,7 +62038,7 @@ msgstr "Хуваарилагдаагүй дүн"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1160
 msgid "Unassigned"
-msgstr ""
+msgstr "Хуваарилаагүй"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:320
 msgid "Unassigned Qty"
@@ -62166,7 +62166,7 @@ msgstr "Холбоосгүй болсон"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:674
 msgid "Unlinked Sub Assemblies"
-msgstr ""
+msgstr "Холбогдоогүй дэд угсралтууд"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:378
 msgid "Unmatch Transaction?"
@@ -62785,7 +62785,7 @@ msgstr "Серийн дугаар / Багцын талбаруудыг ашиг
 #. Label of the use_serial_no_wise_valuation (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Use Serial No Wise Valuation"
-msgstr ""
+msgstr "Серийн дугаараар үнэлэх"
 
 #: banking/src/components/features/BankReconciliation/TransferModalContent.tsx:518
 msgid "Use Suggestion"
@@ -62981,7 +62981,7 @@ msgstr "Сөрөг хувьцаа ашиглах нь бараа материа�
 #. Title of a Sidebar
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "Utilities"
-msgstr ""
+msgstr "Ашиглалтын зардал"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:133
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:220
@@ -63196,7 +63196,7 @@ msgstr "Үнэлгээний аргыг {0} -д зориулсан 'Станда
 
 #: erpnext/stock/doctype/item/item.py:1209
 msgid "Valuation Method for Item {0} must be Moving Average because Serial No Wise Valuation is disabled. Enable Serial No Wise Valuation to use FIFO, LIFO or Standard Cost."
-msgstr ""
+msgstr "Серийн дугаараар үнэлэх идэвхгүй тул бараа {0}-ийн үнэлгээний арга Хөдөлгөөнт дундаж байх ёстой. FIFO, LIFO эсвэл Стандарт өртөг ашиглахын тулд Серийн дугаараар үнэлэхийг идэвхжүүлнэ үү."
 
 #: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:62
 msgid "Valuation Method of Item {0} must be set to 'Standard Cost'."
@@ -63267,7 +63267,7 @@ msgstr "Үнэлгээний хувь хэмжээ дутуу байна"
 #: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
 #, python-format
 msgid "Valuation Rate and Manual value this item on its own and deduct that cost from the raw material cost, like the pre-v16 scrap items. % of Component Cost allocates a percentage of the remaining raw material cost."
-msgstr ""
+msgstr "Үнэлгээний үнэ болон Гараар сонголт нь энэ барааг тусад нь үнэлж, тэр өртгийг түүхий эдийн өртгөөс хасна (v16-аас өмнөх хаягдал бараатай адил). Бүрэлдэхүүний өртгийн % нь үлдсэн түүхий эдийн өртгийн тодорхой хувийг хуваарилна."
 
 #: erpnext/stock/doctype/item/item.py:1774
 msgid "Valuation Rate cannot be negative."
@@ -63293,7 +63293,7 @@ msgstr "{1} мөрөнд байрлах {0} зүйлийн үнэлгээний 
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Valuation Type"
-msgstr ""
+msgstr "Үнэлгээний төрөл"
 
 #. Option for the 'Consider Tax or Charge for' (Select) field in DocType
 #. 'Purchase Taxes and Charges'
@@ -63380,7 +63380,7 @@ msgstr "Асаалттай байгаа утга"
 #. 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Value every outward movement at each Serial No's own incoming rate. If unchecked, the item is valued at Moving Average once stock transactions exist. Cannot be enabled once Serial Nos exist for this item."
-msgstr ""
+msgstr "Зарлагын хөдөлгөөн бүрийг тухайн серийн дугаарын өөрийн орлогын үнээр үнэлнэ. Сонгоогүй бол бараа материалын гүйлгээ бий болсны дараа барааг Хөдөлгөөнт дунджаар үнэлнэ. Энэ бараанд серийн дугаар бүртгэгдсэний дараа идэвхжүүлэх боломжгүй."
 
 #: erpnext/controllers/item_variant.py:135
 msgid "Value for Attribute {0} must be within the range of {1} to {2} in the increments of {3} for Item {4}"
@@ -63595,7 +63595,7 @@ msgstr "И-мэйл баталгаажуулах"
 
 #: erpnext/selling/doctype/quotation/quotation_dashboard.py:15
 msgid "Versions"
-msgstr ""
+msgstr "Хувилбарууд"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -64541,7 +64541,7 @@ msgstr "Жин (кг)"
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Weight Per Piece"
-msgstr ""
+msgstr "Нэг ширхэгийн жин"
 
 #. Label of the weight_per_unit (Float) field in DocType 'POS Invoice Item'
 #. Label of the weight_per_unit (Float) field in DocType 'Purchase Invoice
@@ -64597,7 +64597,7 @@ msgstr "UOM жин"
 #. Label of the weight_per_piece (Float) field in DocType 'BOM Operation'
 #: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
 msgid "Weight per piece"
-msgstr ""
+msgstr "Нэг ширхэгийн жин"
 
 #. Label of the weighting_function (Small Text) field in DocType 'Supplier
 #. Scorecard'
@@ -64679,7 +64679,7 @@ msgstr "Дахин савлах бараа бүтээгдэхүүний оруу
 #. Description of the 'Is Phantom Item' (Check) field in DocType 'BOM Item'
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 msgid "When this is enabled it defines the BOM as a logical grouping of raw materials without producing an item. The Production Item must be non-stock and will be automatically exploded when used as a raw material in another BOM."
-msgstr ""
+msgstr "Үүнийг идэвхжүүлбэл БОМ-ыг бараа үйлдвэрлэхгүйгээр түүхий эдийн логик бүлэг болгон тодорхойлно. Үйлдвэрлэлийн бараа нь бараа материалын бус байх ёстой бөгөөд өөр БОМ-д түүхий эд болгон ашиглахад автоматаар задлагдана."
 
 #: erpnext/accounts/doctype/account/account.py:415
 msgid "While creating account for Child Company {0}, parent account {1} found as a ledger account."
@@ -64978,15 +64978,15 @@ msgstr "Ажлын захиалга заавал байх ёстой"
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1040
 msgid "Work Order is mandatory for a finished good conversion entry."
-msgstr ""
+msgstr "Бэлэн бүтээгдэхүүний хөрвүүлэлтийн бичилтэд Ажлын захиалга заавал шаардлагатай."
 
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:75
 msgid "Work Order must reference a row in Production Plan {0}."
-msgstr ""
+msgstr "Ажлын захиалга нь Үйлдвэрлэлийн төлөвлөгөө {0}-ийн нэг мөрийг заасан байх ёстой."
 
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:51
 msgid "Work Order must reference only one Production Plan row."
-msgstr ""
+msgstr "Ажлын захиалга нь Үйлдвэрлэлийн төлөвлөгөөний зөвхөн нэг мөрийг заасан байх ёстой."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1313
 msgid "Work Order not created"
@@ -65694,7 +65694,7 @@ msgstr "[Чухал] [ERPNext] Автоматаар дахин захиалах 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:530
 msgctxt "Financial Report Template"
 msgid "[{0}] {1}"
-msgstr ""
+msgstr "[{0}] {1}"
 
 #: erpnext/controllers/status_updater.py:374
 msgid "`Allow Negative rates for Items`"
@@ -65780,7 +65780,7 @@ msgstr "жишээ нь: Банкны төлбөр"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:228
 msgid "e.g. Last 3 weeks, Q1, May 2025"
-msgstr ""
+msgstr "жишээ нь: Сүүлийн 3 долоо хоног, 1-р улирал, 2025 оны 5-р сар"
 
 #. Description of the 'Shipping Rule Label' (Data) field in DocType 'Shipping
 #. Rule'
@@ -66187,7 +66187,7 @@ msgstr "{0} -г Үндсэн өртгийн төв болгон ашиглах �
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:66
 msgid "{0} cannot be used as an accounting dimension as it is not a standalone document type."
-msgstr ""
+msgstr "{0} нь бие даасан баримтын төрөл биш тул нягтлан бодох бүртгэлийн хэмжээс болгон ашиглах боломжгүй."
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:168
 msgid "{0} cannot be zero"
@@ -66200,7 +66200,7 @@ msgstr "{0} бөглөсөн ажлын картууд"
 #: erpnext/accounts/doctype/account/account_tree.js:426
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:144
 msgid "{0} converted"
-msgstr ""
+msgstr "{0} хөрвүүлэгдсэн"
 
 #: erpnext/manufacturing/doctype/production_plan/services/material_request.py:143
 #: erpnext/manufacturing/doctype/production_plan/services/work_order_planning.py:207
@@ -66273,7 +66273,7 @@ msgstr "{0} амжилтгүй болсон (Алдааны бүртгэлийг
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:506
 msgid "{0} finished goods · {1} sub assemblies"
-msgstr ""
+msgstr "{0} бэлэн бүтээгдэхүүн · {1} дэд угсралт"
 
 #: erpnext/accounts/utils.py:138
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:40
@@ -66386,11 +66386,11 @@ msgstr "{0} нь CSV файл биш."
 
 #: erpnext/controllers/queries.py:1316
 msgid "{0} is not a child table"
-msgstr ""
+msgstr "{0} нь дэд хүснэгт биш"
 
 #: erpnext/utilities/transaction_base.py:391
 msgid "{0} is not a child table of {1}"
-msgstr ""
+msgstr "{0} нь {1}-ийн дэд хүснэгт биш"
 
 #: erpnext/selling/doctype/customer/customer.py:256
 msgid "{0} is not a company bank account"
@@ -66456,7 +66456,7 @@ msgstr "{0} нээлттэй байна. Шинэ POS нээх бичилт үү
 #: erpnext/public/js/utils/party.js:202 erpnext/public/js/utils/party.js:249
 #: erpnext/public/js/utils/party.js:261
 msgid "{0} is required to apply taxes. Set {0}, then select {1} again."
-msgstr ""
+msgstr "Татвар тооцоход {0} шаардлагатай. {0}-г тохируулаад {1}-г дахин сонгоно уу."
 
 #: erpnext/manufacturing/doctype/production_plan/services/material_request.py:239
 msgid "{0} is required to get raw materials when {1} is set."
@@ -66464,11 +66464,11 @@ msgstr "{1} тохируулагдсан үед түүхий эд авахын �
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:218
 msgid "{0} is required when {1} is {2}"
-msgstr ""
+msgstr "{1} нь {2} үед {0} шаардлагатай"
 
 #: erpnext/setup/doctype/company/company.py:904
 msgid "{0} is the site's Demo Company and cannot be deleted directly. Use {1} instead."
-msgstr ""
+msgstr "{0} нь сайтын Демо компани тул шууд устгах боломжгүй. Оронд нь {1}-ийг ашиглана уу."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:656
 msgid "{0} items disassembled"
@@ -66504,11 +66504,11 @@ msgstr "{0} хэлнүүдийг анхдагч хэлээр тэмдэглэс�
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:544
 msgid "{0} materials short"
-msgstr ""
+msgstr "{0} материал дутуу"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:330
 msgid "{0} materials still to request"
-msgstr ""
+msgstr "{0} материалыг хүсэх шаардлагатай хэвээр"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:168
 msgid "{0} must be a group warehouse."
@@ -66516,7 +66516,7 @@ msgstr "{0} нь бүлгийн агуулах байх ёстой."
 
 #: erpnext/stock/doctype/item/item.py:418
 msgid "{0} must be greater than zero."
-msgstr ""
+msgstr "{0} тэгээс их байх ёстой."
 
 #: erpnext/controllers/sales_and_purchase_return.py:244
 msgid "{0} must be negative in return document"
@@ -66548,15 +66548,15 @@ msgstr "{0} {1} барааны тоо хэмжээ {3} багтаамжтай {2
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:408
 msgid "{0} requests · {1} orders"
-msgstr ""
+msgstr "{0} хүсэлт · {1} захиалга"
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:341
 msgid "{0} rows not started"
-msgstr ""
+msgstr "{0} мөр эхлээгүй"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:514
 msgid "{0} should be in format: app.module.method"
-msgstr ""
+msgstr "{0} нь app.module.method хэлбэртэй байх ёстой"
 
 #: erpnext/public/js/templates/shop_floor_template.html:1050
 msgid "{0} submitted today"
@@ -66626,7 +66626,7 @@ msgstr "Дараа нь сканнердсан зүйлсэд {0} -г {1} гэж
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:431
 msgid "{0} workstations"
-msgstr ""
+msgstr "{0} ажлын станц"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:1119
 msgid "{0} {1}"
@@ -66782,7 +66782,7 @@ msgstr "{0} {1} CSV файлаар дамжуулан"
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:693
 msgid "{0} {1} was submitted but could not be reconciled against Bank Transaction {2}. Match it manually from the Bank Reconciliation Tool."
-msgstr ""
+msgstr "{0} {1} батлагдсан боловч Банкны гүйлгээ {2}-той нийцүүлж чадсангүй. Банкны тооцоо нийцүүлэх хэрэгслээс гараар тааруулна уу."
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:226
 msgid "{0} {1}: 'Profit and Loss' type account {2} not allowed in Opening Entry"
@@ -66882,7 +66882,7 @@ msgstr "{0}: Виртуал DocType (мэдээллийн сангийн хүс�
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:203
 msgid "{0}: expected \"{1}\", got \"{2}\""
-msgstr ""
+msgstr "{0}: \"{1}\" хүлээж байсан, \"{2}\" ирлээ"
 
 #: erpnext/stock/doctype/item/item.js:1262
 msgid "{0}: remove invalid value(s) {1}"
