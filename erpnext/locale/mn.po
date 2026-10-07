@@ -66908,3 +66908,310 @@ msgstr "{}"
 msgid "{} invoices"
 msgstr "{} нэхэмжлэх"
 
+#: erpnext/regional/mongolia
+msgid "E-Barimt"
+msgstr "И-Баримт"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Settings"
+msgstr "И-Баримтын тохиргоо"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Type"
+msgstr "И-Баримтын төрөл"
+
+#: erpnext/regional/mongolia
+msgid "Leave empty to choose automatically from the customer and payment."
+msgstr "Хоосон үлдээвэл харилцагч болон төлбөрөөс хамаарч автоматаар сонгогдоно."
+
+#: erpnext/regional/mongolia
+msgid "Consumer E-Barimt No"
+msgstr "Хэрэглэгчийн И-Баримтын дугаар"
+
+#: erpnext/regional/mongolia
+msgid "8-digit E-Barimt number of an individual customer."
+msgstr "Хувь хүн харилцагчийн 8 оронтой И-Баримтын дугаар."
+
+#: erpnext/regional/mongolia
+msgid "Customer TIN"
+msgstr "Харилцагчийн ТТД"
+
+#: erpnext/regional/mongolia
+msgid "Filled from the customer's registration number when left empty."
+msgstr "Хоосон үлдээвэл харилцагчийн регистрийн дугаараас бөглөгдөнө."
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Status"
+msgstr "И-Баримтын төлөв"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Receipt ID"
+msgstr "ДДТД (И-Баримтын дугаар)"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Lottery No"
+msgstr "Сугалааны дугаар"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Date"
+msgstr "И-Баримтын огноо"
+
+#: erpnext/regional/mongolia
+msgid "Replaced E-Barimt Receipt ID"
+msgstr "Солигдсон ДДТД"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt QR Data"
+msgstr "И-Баримтын QR өгөгдөл"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Error"
+msgstr "И-Баримтын алдаа"
+
+#: erpnext/regional/mongolia
+msgid "Sent"
+msgstr "Илгээсэн"
+
+#: erpnext/regional/mongolia
+msgid "Return Processed"
+msgstr "Буцаалт боловсруулсан"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Classification Code"
+msgstr "БҮНА код (И-Баримт)"
+
+#: erpnext/regional/mongolia
+msgid "Product and service classification code (БҮНА) reported on E-Barimt receipts."
+msgstr "И-Баримтад тусгах бүтээгдэхүүн, үйлчилгээний нэгдсэн ангиллын (БҮНА) код."
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Tax Type"
+msgstr "И-Баримтын татварын төрөл"
+
+#: erpnext/regional/mongolia
+msgid "Used when no VAT is charged on the item. VAT_FREE and VAT_ZERO need a Tax Product Code."
+msgstr "Бараанд НӨАТ ногдуулаагүй үед ашиглана. VAT_FREE болон VAT_ZERO-д татварын барааны код шаардлагатай."
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt Tax Product Code"
+msgstr "И-Баримтын татварын барааны код"
+
+#: erpnext/regional/mongolia
+msgid "TIN"
+msgstr "ТТД"
+
+#: erpnext/regional/mongolia
+msgid "Taxpayer identification number, looked up from the Tax ID (registration number)."
+msgstr "Татвар төлөгчийн дугаар, Татварын дугаар (регистр)-аас лавлаж авна."
+
+#: erpnext/regional/mongolia
+msgid "VAT Payer"
+msgstr "НӨАТ төлөгч"
+
+#: erpnext/regional/mongolia
+msgid "Block Submission if E-Barimt Fails"
+msgstr "И-Баримт амжилтгүй бол батлахыг хориглох"
+
+#: erpnext/regional/mongolia
+msgid "If unchecked, the invoice is submitted and the receipt is retried every hour."
+msgstr "Сонгоогүй бол нэхэмжлэх батлагдаж, И-Баримтыг цаг тутам дахин илгээнэ."
+
+#: erpnext/regional/mongolia
+msgid "PosAPI Connection"
+msgstr "PosAPI холболт"
+
+#: erpnext/regional/mongolia
+msgid "PosAPI URL"
+msgstr "PosAPI хаяг"
+
+#: erpnext/regional/mongolia
+msgid "Address of the PosAPI 3.0 service installed for this branch."
+msgstr "Энэ салбарт суулгасан PosAPI 3.0 үйлчилгээний хаяг."
+
+#: erpnext/regional/mongolia
+msgid "Taxpayer Info API URL"
+msgstr "Татвар төлөгчийн мэдээллийн API хаяг"
+
+#: erpnext/regional/mongolia
+msgid "Used to look up a taxpayer's TIN and name from a registration number."
+msgstr "Регистрийн дугаараар татвар төлөгчийн ТТД болон нэрийг лавлахад ашиглана."
+
+#: erpnext/regional/mongolia
+msgid "Timeout (Seconds)"
+msgstr "Хүлээх хугацаа (секунд)"
+
+#: erpnext/regional/mongolia
+msgid "Merchant TIN"
+msgstr "Худалдагчийн ТТД"
+
+#: erpnext/regional/mongolia
+msgid "Taxpayer identification number (TIN) of the company."
+msgstr "Компанийн татвар төлөгчийн дугаар (ТТД)."
+
+#: erpnext/regional/mongolia
+msgid "Branch No"
+msgstr "Салбарын дугаар"
+
+#: erpnext/regional/mongolia
+msgid "POS No"
+msgstr "ПОС-ын дугаар"
+
+#: erpnext/regional/mongolia
+msgid "District Code"
+msgstr "Дүүрэг, сумын код"
+
+#: erpnext/regional/mongolia
+msgid "4-digit code of the district / soum where the branch is located."
+msgstr "Салбар байрлах дүүрэг, сумын 4 оронтой код."
+
+#: erpnext/regional/mongolia
+msgid "VAT Account"
+msgstr "НӨАТ-ын данс"
+
+#: erpnext/regional/mongolia
+msgid "City Tax Account"
+msgstr "НХАТ-ын данс"
+
+#: erpnext/regional/mongolia
+msgid "Default Classification Code"
+msgstr "Анхдагч БҮНА код"
+
+#: erpnext/regional/mongolia
+msgid "Product classification code used when an Item has none set."
+msgstr "Бараанд БҮНА код тохируулаагүй үед ашиглах код."
+
+#: erpnext/regional/mongolia
+msgid "Tax Type for Items without VAT"
+msgstr "НӨАТ-гүй барааны татварын төрөл"
+
+#: erpnext/regional/mongolia
+msgid "Connection to the Mongolian E-Barimt (PosAPI 3.0) receipt system."
+msgstr "И-Баримт (PosAPI 3.0) системийн холболт."
+
+#: erpnext/regional/mongolia
+msgid "Company {0} is not in Mongolia."
+msgstr "Компани {0} Монголд бүртгэлгүй байна."
+
+#: erpnext/regional/mongolia
+msgid "Test Connection"
+msgstr "Холболт шалгах"
+
+#: erpnext/regional/mongolia
+msgid "PosAPI Info"
+msgstr "PosAPI мэдээлэл"
+
+#: erpnext/regional/mongolia
+msgid "Could not connect to PosAPI at {0}: {1}"
+msgstr "{0} хаяг дээрх PosAPI-тэй холбогдож чадсангүй: {1}"
+
+#: erpnext/regional/mongolia
+msgid "PosAPI returned HTTP {0}: {1}"
+msgstr "PosAPI HTTP {0} алдаа буцаалаа: {1}"
+
+#: erpnext/regional/mongolia
+msgid "PosAPI did not return a receipt id"
+msgstr "PosAPI баримтын дугаар буцаасангүй"
+
+#: erpnext/regional/mongolia
+msgid "PosAPI could not void receipt {0}"
+msgstr "PosAPI {0} баримтыг хүчингүй болгож чадсангүй"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt receipt could not be registered and will be retried: {0}"
+msgstr "И-Баримт бүртгэгдсэнгүй, дахин илгээх болно: {0}"
+
+#: erpnext/regional/mongolia
+msgid "Item {0} needs an E-Barimt Tax Product Code for tax type {1}"
+msgstr "{1} татварын төрөлд бараа {0}-д И-Баримтын татварын барааны код шаардлагатай"
+
+#: erpnext/regional/mongolia
+msgid "Nothing to register: the invoice has no items left"
+msgstr "Бүртгэх зүйл алга: нэхэмжлэхэд бараа үлдээгүй байна"
+
+#: erpnext/regional/mongolia
+msgid "Taxpayer lookup failed: {0}"
+msgstr "Татвар төлөгч лавлаж чадсангүй: {0}"
+
+#: erpnext/regional/mongolia
+msgid "Taxpayer not found"
+msgstr "Татвар төлөгч олдсонгүй"
+
+#: erpnext/regional/mongolia
+msgid "Only submitted invoices can be sent to E-Barimt"
+msgstr "Зөвхөн батлагдсан нэхэмжлэхийг И-Баримтад илгээх боломжтой"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt is not enabled for Company {0}"
+msgstr "Компани {0}-д И-Баримт идэвхжээгүй байна"
+
+#: erpnext/regional/mongolia
+msgid "Look up Taxpayer"
+msgstr "Татвар төлөгч лавлах"
+
+#: erpnext/regional/mongolia
+msgid "Enter the registration number in Tax ID first."
+msgstr "Эхлээд Татварын дугаар талбарт регистрийн дугаараа оруулна уу."
+
+#: erpnext/regional/mongolia
+msgid "Registered name is {0}. Use it as the customer name?"
+msgstr "Бүртгэлтэй нэр нь {0}. Үүнийг харилцагчийн нэр болгох уу?"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt receipt was not registered: {0}"
+msgstr "И-Баримт бүртгэгдээгүй: {0}"
+
+#: erpnext/regional/mongolia
+msgid "Resend to E-Barimt"
+msgstr "И-Баримт руу дахин илгээх"
+
+#: erpnext/regional/mongolia
+msgid "E-Barimt receipt not registered yet"
+msgstr "И-Баримт хараахан бүртгэгдээгүй"
+
+#: erpnext/regional/mongolia
+msgid "Mongolia VAT Report"
+msgstr "НӨАТ-ын тайлан (Монгол)"
+
+#: erpnext/regional/mongolia
+msgid "Output VAT Account"
+msgstr "Борлуулалтын НӨАТ-ын данс"
+
+#: erpnext/regional/mongolia
+msgid "Input VAT Account"
+msgstr "Худалдан авалтын НӨАТ-ын данс"
+
+#: erpnext/regional/mongolia
+msgid "Defaults to the VAT Account in E-Barimt Settings"
+msgstr "Анхдагчаар И-Баримтын тохиргооны НӨАТ-ын данс"
+
+#: erpnext/regional/mongolia
+msgid "Defaults to account 1211 (VAT receivable)"
+msgstr "Анхдагчаар 1211 (НӨАТ-ын авлага) данс"
+
+#: erpnext/regional/mongolia
+msgid "Output VAT (Sales)"
+msgstr "Борлуулалтын НӨАТ"
+
+#: erpnext/regional/mongolia
+msgid "Input VAT (Purchases)"
+msgstr "Худалдан авалтын НӨАТ"
+
+#: erpnext/regional/mongolia
+msgid "VAT Payable / (Refundable)"
+msgstr "Төлөх НӨАТ / (Буцаан авах)"
+
+#: erpnext/regional/mongolia
+msgid "Set the Output VAT Account and Input VAT Account filters"
+msgstr "Борлуулалтын болон худалдан авалтын НӨАТ-ын дансны шүүлтүүрийг тохируулна уу"
+
+#: erpnext/regional/mongolia
+msgid "VAT Amount"
+msgstr "НӨАТ-ын дүн"
+
+#: erpnext/regional/mongolia
+msgid "Mongolia E-Barimt Receipt"
+msgstr "И-Баримтын баримт (Монгол)"
+
+#: erpnext/regional/mongolia
+msgid "Could not create withholding tax account {0}"
+msgstr "Суутган татварын данс {0}-г үүсгэж чадсангүй"
