@@ -1,4 +1,4 @@
-// Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2026, Anjaa and contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.ui.form.on("Customer", {
@@ -17,7 +17,7 @@ function erpnext_mongolia_lookup_taxpayer(frm) {
 
 	frappe
 		.call({
-			method: "erpnext.regional.mongolia.ebarimt.get_taxpayer_info",
+			method: "mongolia_compliance.e_barimt.ebarimt.get_taxpayer_info",
 			args: { reg_no: frm.doc.tax_id },
 			freeze: true,
 		})

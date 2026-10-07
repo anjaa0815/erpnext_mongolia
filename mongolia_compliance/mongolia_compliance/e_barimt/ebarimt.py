@@ -1,4 +1,4 @@
-# Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2026, Anjaa and contributors
 # License: GNU General Public License v3. See license.txt
 
 """E-Barimt (Mongolian electronic receipt, PosAPI 3.0) integration.
@@ -16,7 +16,7 @@ import requests
 from frappe import _
 from frappe.utils import cint, flt, get_datetime, now_datetime
 
-from erpnext.regional.doctype.e_barimt_settings.e_barimt_settings import get_ebarimt_settings
+from mongolia_compliance.e_barimt.doctype.e_barimt_settings.e_barimt_settings import get_ebarimt_settings
 
 INVOICE_DOCTYPES = ("Sales Invoice", "POS Invoice")
 RETURN_LINK_FIELD = {"Sales Invoice": "sales_invoice_item", "POS Invoice": "pos_invoice_item"}

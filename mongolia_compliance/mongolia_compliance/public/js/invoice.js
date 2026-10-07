@@ -1,4 +1,4 @@
-// Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2026, Anjaa and contributors
 // License: GNU General Public License v3. See license.txt
 
 ["Sales Invoice", "POS Invoice"].forEach((doctype) => {
@@ -18,7 +18,7 @@
 					() =>
 						frappe
 							.call({
-								method: "erpnext.regional.mongolia.ebarimt.resend",
+								method: "mongolia_compliance.e_barimt.ebarimt.resend",
 								args: { doctype: frm.doctype, name: frm.docname },
 								freeze: true,
 							})

@@ -1,11 +1,10 @@
-# Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2026, Anjaa and contributors
 # For license information, please see license.txt
 
 import frappe
+from erpnext import get_region
 from frappe import _
 from frappe.model.document import Document
-
-from erpnext import get_region
 
 
 class EBarimtSettings(Document):
@@ -27,7 +26,7 @@ class EBarimtSettings(Document):
 
 	@frappe.whitelist()
 	def test_connection(self):
-		from erpnext.regional.mongolia.ebarimt import PosAPIClient
+		from mongolia_compliance.e_barimt.ebarimt import PosAPIClient
 
 		return PosAPIClient(self).get_info()
 

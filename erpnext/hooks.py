@@ -63,9 +63,7 @@ web_include_icons = [
 
 doctype_js = {
 	"Address": "public/js/address.js",
-	"Customer": ["public/js/customer_overview.js", "regional/mongolia/customer.js"],
-	"Sales Invoice": "regional/mongolia/invoice.js",
-	"POS Invoice": "regional/mongolia/invoice.js",
+	"Customer": "public/js/customer_overview.js",
 	"Sales Order": "public/js/sales_order_proforma.js",
 	"Communication": "public/js/communication.js",
 	"Event": "public/js/event.js",
@@ -140,7 +138,6 @@ demo_transaction_doctypes = [
 jinja = {
 	"methods": [
 		"erpnext.stock.serial_batch_bundle.get_serial_or_batch_nos",
-		"erpnext.regional.mongolia.ebarimt.get_qr_code_image",
 	],
 }
 
@@ -435,17 +432,11 @@ doc_events = {
 	"Sales Invoice": {
 		"on_submit": [
 			"erpnext.regional.italy.utils.sales_invoice_on_submit",
-			"erpnext.regional.mongolia.ebarimt.on_submit",
 		],
 		"on_cancel": [
 			"erpnext.regional.italy.utils.sales_invoice_on_cancel",
-			"erpnext.regional.mongolia.ebarimt.on_cancel",
 		],
 		"on_trash": "erpnext.regional.check_deletion_permission",
-	},
-	"POS Invoice": {
-		"on_submit": "erpnext.regional.mongolia.ebarimt.on_submit",
-		"on_cancel": "erpnext.regional.mongolia.ebarimt.on_cancel",
 	},
 	"Purchase Invoice": {
 		"validate": [
@@ -511,7 +502,6 @@ scheduler_events = {
 	},
 	"hourly": [
 		"erpnext.projects.doctype.project.project.hourly_reminder",
-		"erpnext.regional.mongolia.ebarimt.process_pending",
 	],
 	"hourly_long": [],
 	"hourly_maintenance": [

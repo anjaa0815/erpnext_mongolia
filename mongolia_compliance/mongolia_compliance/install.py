@@ -1,25 +1,30 @@
-# Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2026, Anjaa and contributors
 # License: GNU General Public License v3. See license.txt
 
 import frappe
-from frappe import _
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
-from frappe.utils import getdate, nowdate
-
-# Withholding taxes a Mongolian company deducts from payments to suppliers.
-# (category name, rate, account number in the Mongolian chart, account name)
-WITHHOLDING_CATEGORIES = [
-	("ХХОАТ 10% - Ажил, үйлчилгээ", 10, "3302", "ХХОАТ-ын өглөг"),
-	("ХХОАТ 10% - Хөрөнгийн түрээс", 10, "3302", "ХХОАТ-ын өглөг"),
-	("ХХОАТ 10% - Эрхийн шимтгэл (роялти)", 10, "3302", "ХХОАТ-ын өглөг"),
-	("ААНОАТ 20% - Оршин суугч бус этгээд", 20, "3303", "ААНОАТ-ын өглөг"),
-]
 
 
-def setup(company=None, patch=True):
+def after_install():
+	after_migrate()
+
+
+def after_migrate():
 	make_custom_fields()
-	if company:
+	sync_report_templates()
+
+	from mongolia_compliance.mongolia_accounting.setup import setup_tax_withholding_categories
+
+	for company in frappe.get_all("Company", filters={"country": "Mongolia"}, pluck="name"):
 		setup_tax_withholding_categories(company)
+
+
+def sync_report_templates():
+	from erpnext.accounts.doctype.financial_report_template.financial_report_template import (
+		_sync_templates_for,
+	)
+
+	_sync_templates_for("mongolia_compliance")
 
 
 def make_custom_fields(update=True):
@@ -159,6 +164,26 @@ def make_custom_fields(update=True):
 				insert_after="ebarimt_tax_type",
 			),
 		],
+		"Company": [
+			dict(
+				fieldname="mn_use_mongolian_chart",
+				label="Use Mongolian Chart of Accounts",
+				fieldtype="Check",
+				default="1",
+				depends_on="eval:doc.country=='Mongolia'",
+				description="Replace the chart selected above with the Mongolian chart of accounts while the company has no transactions.",
+				insert_after="chart_of_accounts",
+			),
+			dict(
+				fieldname="mn_chart_installed",
+				label="Mongolian Chart of Accounts Installed",
+				fieldtype="Check",
+				read_only=1,
+				no_copy=1,
+				depends_on="eval:doc.country=='Mongolia'",
+				insert_after="mn_use_mongolian_chart",
+			),
+		],
 		"Customer": [
 			dict(
 				fieldname="ebarimt_tin",
@@ -178,53 +203,3 @@ def make_custom_fields(update=True):
 	}
 
 	create_custom_fields(custom_fields, update=update)
-
-
-def setup_tax_withholding_categories(company):
-	year_start = getdate(nowdate()).replace(month=1, day=1)
-
-	for category_name, rate, account_number, account_name in WITHHOLDING_CATEGORIES:
-		account = get_withholding_account(company, account_number, account_name)
-		if not account:
-			continue
-
-		if frappe.db.exists("Tax Withholding Category", category_name):
-			doc = frappe.get_doc("Tax Withholding Category", category_name)
-			if any(row.company == company for row in doc.accounts):
-				continue
-			doc.append("accounts", {"company": company, "account": account})
-			doc.save(ignore_permissions=True)
-			continue
-
-		frappe.get_doc(
-			{
-				"doctype": "Tax Withholding Category",
-				"name": category_name,
-				"category_name": category_name,
-				"tax_deduction_basis": "Net Total",
-				"rates": [
-					{
-						"tax_withholding_rate": rate,
-						"from_date": year_start,
-						"to_date": year_start.replace(year=2099, month=12, day=31),
-					}
-				],
-				"accounts": [{"company": company, "account": account}],
-			}
-		).insert(ignore_permissions=True)
-
-
-def get_withholding_account(company, account_number, account_name):
-	account = frappe.db.get_value(
-		"Account", {"company": company, "account_number": account_number, "is_group": 0}
-	) or frappe.db.get_value("Account", {"company": company, "account_name": account_name, "is_group": 0})
-	if account:
-		return account
-
-	from erpnext.setup.setup_wizard.operations.taxes_setup import get_or_create_account
-
-	try:
-		return get_or_create_account(company, {"account_name": account_name}).name
-	except Exception:
-		frappe.log_error(_("Could not create withholding tax account {0}").format(account_name))
-		return None

@@ -1,4 +1,4 @@
-# Copyright (c) 2026, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2026, Anjaa and contributors
 # See license.txt
 
 from erpnext.tests.utils import ERPNextTestSuite
